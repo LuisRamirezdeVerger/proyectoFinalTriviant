@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "301307244083",
+    "project_id": "rollyourchoice",
+    "storage_bucket": "rollyourchoice.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301307244083:android:baafb26e29a4b5dc01fd46",
+        "android_client_info": {
+          "package_name": "com.example.triviant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuMpjYcXEG7x3L8pdEd7yiEnBJy-Hcqfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
