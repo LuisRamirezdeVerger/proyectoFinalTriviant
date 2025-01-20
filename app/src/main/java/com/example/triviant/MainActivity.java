@@ -21,7 +21,21 @@ public class MainActivity extends AppCompatActivity {
             Random random = new Random();
             int movement = random.nextInt(6)+1;
             System.out.println(movement);
+            if(movement == 1){
+                binding.card.setBackgroundResource(R.drawable.one);
+            }else if (movement == 2){
+                binding.card.setBackgroundResource(R.drawable.two);
+            }else if (movement == 3){
+                binding.card.setBackgroundResource(R.drawable.three);
+            }else if (movement == 4){
+                binding.card.setBackgroundResource(R.drawable.four);
+            }else if (movement == 5){
+                binding.card.setBackgroundResource(R.drawable.five);
+            }else {
+                binding.card.setBackgroundResource(R.drawable.six);
+            }
             openOtherclass(movement);
+
         });
     }
 
