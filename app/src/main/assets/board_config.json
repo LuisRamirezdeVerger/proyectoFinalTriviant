@@ -1,0 +1,7 @@
+[
+  {"position": 1, "type": "questionTile"},
+  {"position": 2, "type": "questionTile"},
+  {"position": 3, "type": "jumpTile"},
+  {"position": 4, "type": "loseTurnTile"},
+  {"position": 5, "type": "moveTile"}
+]

@@ -80,3 +80,41 @@ class LoseTurnTile extends Tile{
         System.out.println("Pierdes el turno. ");
     }
 }
+
+class JumpTile extends Tile{
+    private int targetPosition;
+
+    public JumpTile(int position, int targetPosition){
+        super(position);
+        this.targetPosition = targetPosition;
+    }
+
+    @Override
+    public void applyEffect(Player player){
+        player.setPosition(targetPosition);
+        System.out.println("Saltas a la casilla " + targetPosition + "!");
+    }
+}
+
+class StartTile extends Tile{
+    public StartTile(){
+        super(1);
+    }
+
+    @Override
+    public void applyEffect(Player player){
+        System.out.println("Estás en la casilla de inicio.");
+    }
+}
+
+class EndTile extends Tile{
+    public EndTile(int position){
+        super(position);
+    }
+
+    @Override
+    public void applyEffect(Player player){
+        player.setHasFinished(true);
+        System.out.println("Has terminado!");
+    }
+}
