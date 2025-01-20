@@ -1,7 +1,10 @@
 package com.example.triviant;
 
+import static java.util.Collections.list;
+
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,11 +14,15 @@ import com.example.triviant.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
+    ImageView card;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
+
+        card = findViewById(R.id.card);
 
         binding.buttonCard.setOnClickListener(v -> {
             Random random = new Random();
@@ -25,26 +32,26 @@ public class MainActivity extends AppCompatActivity {
             switch (movement)
             {
                 case(1):
-                    binding.card.setBackgroundResource(R.drawable.one);
+                    card.setBackgroundResource(R.drawable.one);
                     break;
                 case(2):
-                    binding.card.setBackgroundResource(R.drawable.two);;
+                    card.setBackgroundResource(R.drawable.two);;
                     break;
                 case(3):
-                    binding.card.setBackgroundResource(R.drawable.three);;
+                    card.setBackgroundResource(R.drawable.three);;
                     break;
                 case(4):
-                    binding.card.setBackgroundResource(R.drawable.four);;
+                    card.setBackgroundResource(R.drawable.four);;
                     break;
                 case(5):
-                    binding.card.setBackgroundResource(R.drawable.five);
+                    card.setBackgroundResource(R.drawable.five);
                     break;
                 case(6):
-                    binding.card.setBackgroundResource(R.drawable.six);
+                    card.setBackgroundResource(R.drawable.six);
                     break;
             }
 
-            openOtherclass(movement);
+            //openOtherclass(movement);
 
         });
     }
