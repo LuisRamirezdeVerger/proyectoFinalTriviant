@@ -3,11 +3,8 @@ package com.example.triviant;
 import android.content.Intent;
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
 import java.util.*;
 
 import com.example.triviant.databinding.ActivityMainBinding;
@@ -21,18 +18,18 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
 
         binding.buttonCard.setOnClickListener(v -> {
-            Random random = new Random(5);
-            int movement = random.nextInt();
+            Random random = new Random();
+            int movement = random.nextInt(6)+1;
             System.out.println(movement);
-            //openOtherclass();
+            openOtherclass(movement);
         });
     }
-/*
-    private void openLogin() {
+
+    private void openOtherclass(int movement) {
         Intent intent = new Intent(this, Otherclass.class); // Crear el intent
 
         startActivity(intent); // Lanzamos el intent
     }
-*/
+
 
 }
