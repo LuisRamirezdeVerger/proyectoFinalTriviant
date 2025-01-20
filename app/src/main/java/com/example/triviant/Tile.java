@@ -81,10 +81,10 @@ class LoseTurnTile extends Tile{
     }
 }
 
-class JumpTile extends Tile{
+class WarpTile extends Tile{
     private int targetPosition;
 
-    public JumpTile(int position, int targetPosition){
+    public WarpTile(int position, int targetPosition){
         super(position);
         this.targetPosition = targetPosition;
     }
@@ -116,5 +116,20 @@ class EndTile extends Tile{
     public void applyEffect(Player player){
         player.setHasFinished(true);
         System.out.println("Has terminado!");
+    }
+}
+
+class DeathTile extends Tile{
+    private int targetPosition;
+
+    public DeathTile(int position, int targetPosition){
+        super(position);
+        this.targetPosition = targetPosition;
+    }
+
+    @Override
+    public void applyEffect(Player player){
+        player.setPosition(targetPosition);
+        System.out.println("Vuelves a la casilla de inicio.");
     }
 }
