@@ -36,5 +36,5 @@
   {"position": 35, "type": "questionTile"},
   {"position": 36, "type": "questionTile"},
   {"position": 37, "type": "questionTile"},
-  {"position": 38, "type": "EndTile"}
+  {"position": 38, "type": "endTile"}
 ]
