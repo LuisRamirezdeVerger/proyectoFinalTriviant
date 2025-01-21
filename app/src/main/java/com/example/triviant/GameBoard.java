@@ -7,7 +7,7 @@ import java.io.*;
 
 public class GameBoard {
 
-    private List<Tile> tiles = new ArrayList<>();
+    List<Tile> tiles = new ArrayList<>();
 
     public GameBoard(String board_config){
         initializeBoard(board_config);
@@ -59,6 +59,10 @@ public class GameBoard {
         } catch (Exception e) {
             throw new RuntimeException("Error initializing board" + e);
         }
+    }
+
+    public int getNumberOfTiles() {
+        return tiles.size();
     }
 
     public Tile getTile(int position) {

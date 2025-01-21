@@ -1,6 +1,5 @@
 package com.example.triviant;
 
-import org.json.*;
 import java.util.*;
 
 public class RavenBrained {
@@ -23,10 +22,23 @@ public class RavenBrained {
                 }
 
                 int diceRoll = new Random().nextInt(6) + 1;
-                System.out.println(player.getName() + "tira el dado: " + diceRoll);
+                System.out.println(player.getName() + " tira el dado: " + diceRoll);
+
+                player.move(diceRoll);
+                if (player.getPosition() >= board.tiles.size()){
+                    player.setPosition(board.tiles.size());
+                }
+
+                Tile currentTile = board.getTile(player.getPosition());
+                System.out.println( player.getName() + " lands on tile " + currentTile.getPosition());
+                currentTile.applyEffect(player);
+
+                if (player.hasFinished()) {
+                    System.out.println(player.getName() + " has finished! ");
+                }
             }
+            gameFinished = players.stream().allMatch(Player::hasFinished);
         }
-
-
+        System.out.println("The game has finished! ");
     }
 }
