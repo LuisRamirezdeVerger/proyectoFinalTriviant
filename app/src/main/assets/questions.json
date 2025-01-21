@@ -1,0 +1,25 @@
+{
+  "preguntas": [
+    {
+      "id": 1,
+      "categoria": "Historia",
+      "pregunta": "¿En qué año llegó Cristóbal Colón a América?",
+      "opciones": ["1492", "1453", "1506", "1485"],
+      "respuesta_correcta": "1492"
+    },
+    {
+      "id": 2,
+      "categoria": "Ciencia",
+      "pregunta": "¿Cuál es el planeta más grande del sistema solar?",
+      "opciones": ["Marte", "Júpiter", "Saturno", "Urano"],
+      "respuesta_correcta": "Júpiter"
+    },
+    {
+      "id": 3,
+      "categoria": "Geografía",
+      "pregunta": "¿Cuál es el río más largo del mundo?",
+      "opciones": ["Nilo", "Amazonas", "Yangtsé", "Misisipi"],
+      "respuesta_correcta": "Amazonas"
+    }
+  ]
+}
