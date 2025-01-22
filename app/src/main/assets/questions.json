@@ -539,6 +539,96 @@
       "correct_answer": [0],
       "wrong_answers": [1, 2, 3],
       "difficulty": "Easy"
+    },
+    {
+      "id": "7.1",
+      "category": "Cultura General",
+      "question": "¿Qué año marcó el inicio del siglo XXI?",
+      "options": ["1999", "2001", "2000", "2002"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "7.2",
+      "category": "Cultura General",
+      "question": "¿Quién escribió *Don Quijote de la Mancha*?",
+      "options": ["Miguel de Cervantes", "Lope de Vega", "Francisco de Quevedo", "Federico García Lorca"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "7.3",
+      "category": "Cultura General",
+      "question": "¿Cuál es el idioma más hablado en el mundo?",
+      "options": ["Español", "Mandarín", "Inglés", "Hindi"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "7.4",
+      "category": "Cultura General",
+      "question": "¿Cuál es el elemento químico con el símbolo 'O'?",
+      "options": ["Hidrógeno", "Oxígeno", "Oro", "Ósmio"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "7.5",
+      "category": "Cultura General",
+      "question": "¿Cuál es la moneda oficial de Japón?",
+      "options": ["Yen", "Dólar", "Euro", "Won"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "7.6",
+      "category": "Cultura General",
+      "question": "¿Qué animal es conocido como el 'rey de la selva'?",
+      "options": ["Tigre", "Elefante", "Águila", "León"],
+      "correct_answer": [3],
+      "wrong_answers": [0, 1, 2],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "7.7",
+      "category": "Cultura General",
+      "question": "¿Qué país tiene la mayor población del mundo?",
+      "options": ["India", "China", "Estados Unidos", "Indonesia"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "7.8",
+      "category": "Cultura General",
+      "question": "¿Quién pintó el techo de la Capilla Sixtina?",
+      "options": ["Donatello", "Miguel Ángel", "Rafael", "Leonardo da Vinci"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "7.9",
+      "category": "Cultura General",
+      "question": "¿Qué océano rodea las Maldivas?",
+      "options": ["Pacífico", "Índico", "Atlántico", "Ártico"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "7.10",
+      "category": "Cultura General",
+      "question": "¿Cuál es la capital de Canadá?",
+      "options": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
+      "correct_answer": [3],
+      "wrong_answers": [0, 1, 2],
+      "difficulty": "Hard"
     }
   ]
 }
