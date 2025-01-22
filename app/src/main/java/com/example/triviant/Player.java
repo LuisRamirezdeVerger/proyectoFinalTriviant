@@ -24,7 +24,7 @@ public class Player {
 
     //Movement method
     public void move(int steps){
-        position =+ steps;
+        position += steps;
     }
 
     //Skip turn method
