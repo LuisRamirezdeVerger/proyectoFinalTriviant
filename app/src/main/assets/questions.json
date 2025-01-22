@@ -179,6 +179,96 @@
       "correct_answer": [0],
       "wrong_answers": [1, 2, 3],
       "difficulty": "Hard"
+    },
+    {
+      "id": "3.1",
+      "category": "Videojuegos",
+      "question": "¿En qué año se lanzó el primer videojuego de la saga *Super Mario Bros*?",
+      "options": ["1985", "1983", "1987", "1990"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "3.2",
+      "category": "Videojuegos",
+      "question": "¿Cómo se llama el protagonista de la saga *The Legend of Zelda*?",
+      "options": ["Link", "Zelda", "Ganon", "Epona"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "3.3",
+      "category": "Videojuegos",
+      "question": "¿Cuál es el título del videojuego más vendido de todos los tiempos hasta 2023?",
+      "options": ["Minecraft", "Grand Theft Auto V", "Tetris", "Fortnite"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Hard"
+    },
+    {
+      "id": "3.4",
+      "category": "Videojuegos",
+      "question": "¿Qué personaje de videojuegos dice '¡It's-a me, Mario!'?",
+      "options": ["Mario", "Luigi", "Wario", "Bowser"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "3.5",
+      "category": "Videojuegos",
+      "question": "¿Cuál es el nombre de la empresa que desarrolló *The Witcher 3: Wild Hunt*?",
+      "options": ["CD Projekt Red", "Ubisoft", "Rockstar Games", "Bethesda"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "3.6",
+      "category": "Videojuegos",
+      "question": "¿Qué consola introdujo el uso del CD-ROM como estándar?",
+      "options": ["PlayStation", "Sega Saturn", "Nintendo 64", "Dreamcast"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Hard"
+    },
+    {
+      "id": "3.7",
+      "category": "Videojuegos",
+      "question": "¿En qué saga de videojuegos aparece el personaje *Master Chief*?",
+      "options": ["Halo", "Gears of War", "Call of Duty", "Destiny"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "3.8",
+      "category": "Videojuegos",
+      "question": "¿Cuál es el nombre del creador de *Metal Gear Solid*?",
+      "options": ["Hideo Kojima", "Shigeru Miyamoto", "Tetsuya Nomura", "Ken Levine"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "3.9",
+      "category": "Videojuegos",
+      "question": "¿Cuál es el nombre de la ciudad ficticia donde transcurre *Grand Theft Auto V*?",
+      "options": ["Los Santos", "Vice City", "Liberty City", "San Andreas"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "3.10",
+      "category": "Videojuegos",
+      "question": "¿Qué personaje es la mascota oficial de SEGA?",
+      "options": ["Sonic", "Tails", "Knuckles", "Shadow"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
     }
   ]
 }
