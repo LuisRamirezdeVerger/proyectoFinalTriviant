@@ -359,6 +359,96 @@
       "correct_answer": [0],
       "wrong_answers": [1, 2, 3],
       "difficulty": "Easy"
+    },
+    {
+      "id": "5.1",
+      "category": "Arte",
+      "question": "¿Quién pintó la famosa obra *La Mona Lisa*?",
+      "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Claude Monet"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "5.2",
+      "category": "Arte",
+      "question": "¿Qué movimiento artístico es conocido por su énfasis en el subconsciente y los sueños?",
+      "options": ["Surrealismo", "Impresionismo", "Cubismo", "Expresionismo"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "5.3",
+      "category": "Arte",
+      "question": "¿En qué museo se encuentra el cuadro *La Noche Estrellada* de Vincent van Gogh?",
+      "options": ["Museo de Arte Moderno (MoMA)", "Louvre", "Museo del Prado", "Galería Uffizi"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Hard"
+    },
+    {
+      "id": "5.4",
+      "category": "Arte",
+      "question": "¿Quién pintó el mural *Guernica*?",
+      "options": ["Pablo Picasso", "Salvador Dalí", "Diego Rivera", "Henri Matisse"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "5.5",
+      "category": "Arte",
+      "question": "¿Qué técnica pictórica utiliza pigmentos mezclados con agua aplicada sobre yeso fresco?",
+      "options": ["Fresco", "Óleo", "Acuarela", "Témpera"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "5.6",
+      "category": "Arte",
+      "question": "¿Qué escultor italiano creó la estatua de *El David*?",
+      "options": ["Miguel Ángel", "Donatello", "Bernini", "Brunelleschi"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "5.7",
+      "category": "Arte",
+      "question": "¿Cuál de estos pintores es considerado un maestro del Renacimiento?",
+      "options": ["Rafael", "Jackson Pollock", "Andy Warhol", "Paul Cézanne"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "5.8",
+      "category": "Arte",
+      "question": "¿Qué famoso artista creó el estilo del *Cubismo* junto a Georges Braque?",
+      "options": ["Pablo Picasso", "Henri Matisse", "Juan Gris", "Paul Klee"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "5.9",
+      "category": "Arte",
+      "question": "¿Qué obra escultórica está situada en la cima del Monte Corcovado en Río de Janeiro?",
+      "options": ["Cristo Redentor", "La Estatua de la Libertad", "El Ángel de la Independencia", "El Moisés"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "5.10",
+      "category": "Arte",
+      "question": "¿Qué movimiento artístico enfatizó el uso del color puro y formas geométricas, como en las obras de Piet Mondrian?",
+      "options": ["Neoplasticismo", "Expresionismo", "Surrealismo", "Futurismo"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Hard"
     }
   ]
 }
