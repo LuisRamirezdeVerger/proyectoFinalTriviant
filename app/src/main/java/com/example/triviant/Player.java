@@ -44,4 +44,7 @@ public class Player {
         this.hasFinished = hasFinished;
     }
     //We've to add skills to every character!!
+    public void useAbility(Player other){
+        //Method to be overwritten
+    }
 }
