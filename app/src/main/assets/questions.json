@@ -269,6 +269,96 @@
       "correct_answer": [0],
       "wrong_answers": [1, 2, 3],
       "difficulty": "Easy"
+    },
+    {
+      "id": "4.1",
+      "category": "Entretenimiento",
+      "question": "¿Quién interpretó a Jack Sparrow en la saga *Piratas del Caribe*?",
+      "options": ["Johnny Depp", "Orlando Bloom", "Leonardo DiCaprio", "Brad Pitt"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "4.2",
+      "category": "Entretenimiento",
+      "question": "¿Cuál es la película animada más taquillera de todos los tiempos (hasta 2023)?",
+      "options": ["Frozen II", "El Rey León (2019)", "Los Increíbles 2", "Toy Story 4"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "4.3",
+      "category": "Entretenimiento",
+      "question": "¿Qué serie popular presentó a los personajes Walter White y Jesse Pinkman?",
+      "options": ["Breaking Bad", "The Sopranos", "Better Call Saul", "Mad Men"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "4.4",
+      "category": "Entretenimiento",
+      "question": "¿Qué cantante es conocida como 'La Reina del Pop'?",
+      "options": ["Madonna", "Lady Gaga", "Beyoncé", "Taylor Swift"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "4.5",
+      "category": "Entretenimiento",
+      "question": "¿Cuál fue la primera película en ganar un Oscar a Mejor Película?",
+      "options": ["Wings", "Gone with the Wind", "The Broadway Melody", "Sunrise"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Hard"
+    },
+    {
+      "id": "4.6",
+      "category": "Entretenimiento",
+      "question": "¿Qué grupo británico lanzó el álbum *Abbey Road* en 1969?",
+      "options": ["The Beatles", "The Rolling Stones", "Queen", "Pink Floyd"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "4.7",
+      "category": "Entretenimiento",
+      "question": "¿Quién dirigió la trilogía original de *El Señor de los Anillos*?",
+      "options": ["Peter Jackson", "James Cameron", "Steven Spielberg", "George Lucas"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "4.8",
+      "category": "Entretenimiento",
+      "question": "¿Cuál es el nombre del villano en *Avengers: Infinity War*?",
+      "options": ["Thanos", "Loki", "Ultron", "Hela"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "4.9",
+      "category": "Entretenimiento",
+      "question": "¿Qué comedia animada presenta a personajes como Homer, Marge, Bart, Lisa y Maggie?",
+      "options": ["The Simpsons", "Family Guy", "South Park", "Futurama"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "4.10",
+      "category": "Entretenimiento",
+      "question": "¿Qué película tiene como protagonista a un robot llamado Wall-E?",
+      "options": ["Wall-E", "Big Hero 6", "Robots", "Transformers"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
     }
   ]
 }
