@@ -1,28 +1,184 @@
 {
-  "questions": {
-    "Historia": [
-      {
-        "id": 1,
-        "question": "¿En qué año llegó Cristóbal Colón a América?",
-        "options": ["1492", "1453", "1506", "1485"],
-        "correct_answer": [0]
-      }
-    ],
-    "Ciencia": [
-      {
-        "id": 2,
-        "question": "¿Cuál es el planeta más grande del sistema solar?",
-        "options": ["Marte", "Júpiter", "Saturno", "Urano"],
-        "correct_answer": [1]
-      }
-    ],
-    "Geografía": [
-      {
-        "id": 3,
-        "question": "¿Cuál es el río más largo del mundo?",
-        "options": ["Nilo", "Amazonas", "Yangtsé", "Misisipi"],
-        "correct_answer": [1]
-      }
-    ]
-  }
+  "questions": [
+    {
+      "id": "1.1",
+      "category": "Historia",
+      "question": "¿En qué año comenzó la Primera Guerra Mundial?",
+      "options": ["1914", "1918", "1939", "1929"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "1.2",
+      "category": "Historia",
+      "question": "¿Quién fue el primer presidente de los Estados Unidos?",
+      "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln", "John Adams"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "1.3",
+      "category": "Historia",
+      "question": "¿Qué civilización construyó las pirámides de Egipto?",
+      "options": ["Egipcios", "Mayas", "Aztecas", "Mesopotámicos"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "1.4",
+      "category": "Historia",
+      "question": "¿En qué año cayó el Imperio Romano de Occidente?",
+      "options": ["476", "1492", "1066", "1453"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "1.5",
+      "category": "Historia",
+      "question": "¿Quién fue conocido como 'El Rey Sol' en Francia?",
+      "options": ["Luis XIV", "Luis XVI", "Napoleón Bonaparte", "Francisco I"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "1.6",
+      "category": "Historia",
+      "question": "¿Qué evento marcó el inicio de la Revolución Francesa?",
+      "options": ["La toma de la Bastilla", "La Declaración de los Derechos del Hombre", "La ejecución de Luis XVI", "La creación de la Asamblea Nacional"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Hard"
+    },
+    {
+      "id": "1.7",
+      "category": "Historia",
+      "question": "¿Qué país utilizó por primera vez tanques en batalla durante la Primera Guerra Mundial?",
+      "options": ["Reino Unido", "Alemania", "Estados Unidos", "Francia"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "1.8",
+      "category": "Historia",
+      "question": "¿Qué tratado puso fin a la Primera Guerra Mundial?",
+      "options": ["Tratado de Versalles", "Tratado de París", "Tratado de Utrecht", "Tratado de Westfalia"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "1.9",
+      "category": "Historia",
+      "question": "¿En qué país se originó la Revolución Industrial?",
+      "options": ["Reino Unido", "Alemania", "Estados Unidos", "Francia"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "1.10",
+      "category": "Historia",
+      "question": "¿Cuál fue la causa inmediata de la Segunda Guerra Mundial?",
+      "options": ["La invasión de Polonia", "El ataque a Pearl Harbor", "El Tratado de Versalles", "La caída de la Bolsa de 1929"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Hard"
+    },
+    {
+      "id": "2.1",
+      "category": "Deporte",
+      "question": "¿En qué deporte destacó Michael Jordan?",
+      "options": ["Baloncesto", "Fútbol Americano", "Béisbol", "Atletismo"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "2.2",
+      "category": "Deporte",
+      "question": "¿Cuál es el torneo de tenis más antiguo del mundo?",
+      "options": ["Wimbledon", "Roland Garros", "US Open", "Australian Open"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "2.3",
+      "category": "Deporte",
+      "question": "¿Cuántos jugadores forman un equipo de fútbol en el campo?",
+      "options": ["11", "9", "10", "12"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "2.4",
+      "category": "Deporte",
+      "question": "¿Quién ganó el Mundial de Fútbol de 2014?",
+      "options": ["Alemania", "Brasil", "Argentina", "España"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "2.5",
+      "category": "Deporte",
+      "question": "¿En qué deporte se compite por la Copa Stanley?",
+      "options": ["Hockey sobre hielo", "Fútbol Americano", "Cricket", "Golf"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "2.6",
+      "category": "Deporte",
+      "question": "¿Cuántos sets necesita ganar un jugador para vencer en un partido de tenis masculino en un Grand Slam?",
+      "options": ["3", "2", "4", "5"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Hard"
+    },
+    {
+      "id": "2.7",
+      "category": "Deporte",
+      "question": "¿Quién tiene el récord de más medallas olímpicas ganadas?",
+      "options": ["Michael Phelps", "Usain Bolt", "Larisa Latynina", "Mark Spitz"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Hard"
+    },
+    {
+      "id": "2.8",
+      "category": "Deporte",
+      "question": "¿En qué deporte se destaca Roger Federer?",
+      "options": ["Tenis", "Golf", "Natación", "Bádminton"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "2.9",
+      "category": "Deporte",
+      "question": "¿Qué selección de fútbol ganó el primer Mundial de la historia en 1930?",
+      "options": ["Uruguay", "Brasil", "Italia", "Argentina"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "2.10",
+      "category": "Deporte",
+      "question": "¿Cuántos anillos de campeonato tiene Tom Brady en la NFL (hasta 2023)?",
+      "options": ["7", "6", "8", "5"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Hard"
+    }
+  ]
 }
