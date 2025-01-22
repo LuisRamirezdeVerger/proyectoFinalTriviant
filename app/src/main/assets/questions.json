@@ -449,6 +449,96 @@
       "correct_answer": [0],
       "wrong_answers": [1, 2, 3],
       "difficulty": "Hard"
+    },
+    {
+      "id": "6.1",
+      "category": "Geografía",
+      "question": "¿Cuál es el país más grande del mundo por superficie?",
+      "options": ["Rusia", "Canadá", "China", "Estados Unidos"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "6.2",
+      "category": "Geografía",
+      "question": "¿Qué país tiene la mayor cantidad de islas en el mundo?",
+      "options": ["Suecia", "Filipinas", "Indonesia", "Japón"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "6.3",
+      "category": "Geografía",
+      "question": "¿Cuál es la montaña más alta del mundo?",
+      "options": ["Monte Everest", "K2", "Kangchenjunga", "Annapurna"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "6.4",
+      "category": "Geografía",
+      "question": "¿Cuál es la capital de Australia?",
+      "options": ["Canberra", "Sídney", "Melbourne", "Brisbane"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "6.5",
+      "category": "Geografía",
+      "question": "¿Qué océano es el más grande del mundo?",
+      "options": ["Océano Pacífico", "Océano Atlántico", "Océano Índico", "Océano Ártico"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "6.6",
+      "category": "Geografía",
+      "question": "¿Qué río atraviesa la ciudad de Londres?",
+      "options": ["Támesis", "Danubio", "Sena", "Rin"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
+    },
+    {
+      "id": "6.7",
+      "category": "Geografía",
+      "question": "¿Cuál es el desierto más grande del mundo?",
+      "options": ["Sahara", "Antártida", "Gobi", "Kalahari"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
+      "difficulty": "Hard"
+    },
+    {
+      "id": "6.8",
+      "category": "Geografía",
+      "question": "¿Qué país europeo tiene la mayor cantidad de países vecinos?",
+      "options": ["Rusia", "Alemania", "Francia", "Suiza"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Hard"
+    },
+    {
+      "id": "6.9",
+      "category": "Geografía",
+      "question": "¿Qué lago es el más profundo del mundo?",
+      "options": ["Lago Baikal", "Lago Tanganica", "Lago Superior", "Lago Victoria"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Medium"
+    },
+    {
+      "id": "6.10",
+      "category": "Geografía",
+      "question": "¿En qué continente se encuentra el desierto de Atacama?",
+      "options": ["América del Sur", "África", "Asia", "Oceanía"],
+      "correct_answer": [0],
+      "wrong_answers": [1, 2, 3],
+      "difficulty": "Easy"
     }
   ]
 }
