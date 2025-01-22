@@ -22,8 +22,9 @@ public class Player {
         this.position = position;
     }
 
-    //Movement method
+    //Movement method (CHECK STEPS ON GAMEUTILS!!!)
     public void move(int steps){
+       // int steps = GameUtils.diceRoll();
         position += steps;
     }
 
