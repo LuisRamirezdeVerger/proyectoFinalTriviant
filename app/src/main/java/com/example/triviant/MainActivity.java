@@ -4,6 +4,7 @@ import static java.util.Collections.list;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +16,7 @@ import com.example.triviant.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     ImageView card;
+    Button buttonCard;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +25,11 @@ public class MainActivity extends AppCompatActivity {
         ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
 
         card = findViewById(R.id.card);
+        buttonCard = findViewById(R.id.buttonCard);
 
-        binding.buttonCard.setOnClickListener(v -> {
+        //binding.card.setImageDrawable(R.drawable.one);
+
+        buttonCard.setOnClickListener(v -> {
             Random random = new Random();
             int movement = random.nextInt(6)+1;
             System.out.println(movement);
@@ -35,13 +40,13 @@ public class MainActivity extends AppCompatActivity {
                     card.setBackgroundResource(R.drawable.one);
                     break;
                 case(2):
-                    card.setBackgroundResource(R.drawable.two);;
+                    card.setBackgroundResource(R.drawable.two);
                     break;
                 case(3):
-                    card.setBackgroundResource(R.drawable.three);;
+                    card.setBackgroundResource(R.drawable.three);
                     break;
                 case(4):
-                    card.setBackgroundResource(R.drawable.four);;
+                    card.setBackgroundResource(R.drawable.four);
                     break;
                 case(5):
                     card.setBackgroundResource(R.drawable.five);
@@ -51,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
             }
 
-            //openOtherclass(movement);
+            openOtherclass(movement);
 
         });
     }

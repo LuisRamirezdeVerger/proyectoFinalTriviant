@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Triviant</string>
-    <string name="card">Tirar</string>
+    <string name="card">Pick card</string>
+    <string name="change_language_button">Change languaje</string>
 </resources>
