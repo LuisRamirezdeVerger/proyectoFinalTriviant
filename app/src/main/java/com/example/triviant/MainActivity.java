@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -32,31 +33,45 @@ public class MainActivity extends AppCompatActivity {
         buttonCard.setOnClickListener(v -> {
             Random random = new Random();
             int movement = random.nextInt(6)+1;
+
+
             System.out.println(movement);
 
             switch (movement)
             {
                 case(1):
-                    card.setBackgroundResource(R.drawable.one);
+                    card.setImageResource(R.drawable.one);
+                    System.out.println(movement);
+                    card.invalidate();
                     break;
                 case(2):
-                    card.setBackgroundResource(R.drawable.two);
+                    card.setImageResource(R.drawable.two);
+                    System.out.println(movement);
+                    card.invalidate();
                     break;
                 case(3):
-                    card.setBackgroundResource(R.drawable.three);
+                    card.setImageResource(R.drawable.three);
+                    System.out.println(movement);
+                    card.invalidate();
                     break;
                 case(4):
-                    card.setBackgroundResource(R.drawable.four);
+                    card.setImageResource(R.drawable.four);
+                    System.out.println(movement);
+                    card.invalidate();
                     break;
                 case(5):
-                    card.setBackgroundResource(R.drawable.five);
+                    card.setImageResource(R.drawable.five);
+                    System.out.println(movement);
+                    card.invalidate();
                     break;
                 case(6):
-                    card.setBackgroundResource(R.drawable.six);
+                    card.setImageResource(R.drawable.six);
+                    System.out.println(movement);
+                    card.invalidate();
                     break;
             }
 
-            openOtherclass(movement);
+            //openOtherclass(movement);
 
         });
     }

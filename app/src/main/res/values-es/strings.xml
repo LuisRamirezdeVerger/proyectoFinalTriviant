@@ -3,4 +3,7 @@
     <string name="app_name">Triviant</string>
     <string name="card">Escoger carta</string>
     <string name="change_language_button">Cambiar Idioma</string>
+    <string name="waiting">Esperando a los demás jugadores...</string>
+    <string name="exit">Salir</string>
+    <string name="full">La habitación está llena</string>
 </resources>
