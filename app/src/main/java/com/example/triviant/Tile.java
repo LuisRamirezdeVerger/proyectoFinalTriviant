@@ -38,11 +38,12 @@ class normalTile extends Tile{
 
 //Question tile
 class QuestionTile extends Tile{
+    private Questions question;
     private List<String> questions;
 
-    public QuestionTile(int position, List<String> questions){
+public QuestionTile(int position, Questions newQuestion){
         super(position);
-        this.questions = questions;
+        this.question = newQuestion;
     }
 
     @Override
