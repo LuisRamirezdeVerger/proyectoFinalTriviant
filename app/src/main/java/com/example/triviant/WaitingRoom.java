@@ -1,7 +1,10 @@
 package com.example.triviant;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.GridLayout;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -17,36 +20,51 @@ import io.socket.client.Socket;
 
 public class WaitingRoom extends AppCompatActivity {
 
-    private Socket mSocket;
+    private GridLayout playerGrid;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_waiting_room);
 
-        try {
-            mSocket = IO.socket("http://tu-servidor-url:puerto");
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
+        playerGrid = findViewById(R.id.playerGrid);
+
+        Button startButton = findViewById(R.id.startButton);
+        Button exitButton = findViewById(R.id.exitButton);
+
+        startButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Lógica para comenzar el juego
+            }
+        });
+
+        exitButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Lógica para salir
+                finish();
+            }
+        });
+
+        // Simulando jugadores añadiéndose a la sala
+        for (int i = 1; i <= 4; i++) {
+            addPlayerToGrid(i, i <= 2); // Ejemplo: 2 jugadores listos
+        }
+    }
+
+    private void addPlayerToGrid(int playerNumber, boolean isReady) {
+        View playerView = getLayoutInflater().inflate(R.layout.player_view, playerGrid, false);
+        ImageView playerImage = playerView.findViewById(R.id.playerImage);
+        TextView playerStatus = playerView.findViewById(R.id.playerStatus);
+
+        // Aquí puedes añadir lógica para cargar la imagen del jugador
+        playerImage.setImageResource(R.drawable.ic_player_default);
+
+        if (isReady) {
+            playerStatus.setText(getString(R.string.ready));
         }
 
-        mSocket.connect();
-
-        mSocket.on("waiting", args -> runOnUiThread(() -> {
-            TextView statusTextView = findViewById(R.id.statusTextView);
-            statusTextView.setText(getString(R.string.waiting));
-        }));
-
-        mSocket.on("ready", args -> runOnUiThread(() -> {
-            TextView statusTextView = findViewById(R.id.statusTextView);
-            statusTextView.setText(getString(R.string.full));
-            // Aquí puedes iniciar la siguiente actividad o la pantalla del juego
-        }));
-
-        Button exitButton = findViewById(R.id.exitButton);
-        exitButton.setOnClickListener(v -> {
-            mSocket.disconnect();
-            finish(); // Salir de la sala de espera
-        });
+        playerGrid.addView(playerView);
     }
 }

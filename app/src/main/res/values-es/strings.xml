@@ -6,4 +6,7 @@
     <string name="waiting">Esperando a los demás jugadores...</string>
     <string name="exit">Salir</string>
     <string name="full">La habitación está llena</string>
+    <string name="start">Empezar</string>
+    <string name="ready">Listo</string>
+    <string name="ready">Li</string>
 </resources>
