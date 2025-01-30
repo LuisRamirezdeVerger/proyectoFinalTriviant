@@ -14,7 +14,7 @@ public class Questions {
     //Empty constructor for FireBase
     public Questions(){}
 
-    // Getters y setters
+    // Getters & setters
     public String getId() {
         return this.id;
     }
