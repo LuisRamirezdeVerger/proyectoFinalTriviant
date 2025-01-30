@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Title"
+    android:background="@drawable/fondo">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="242dp"
+        android:layout_height="307dp"
+        android:layout_marginStart="261dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="261dp"
+        android:layout_marginBottom="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        app:srcCompat="@drawable/logofinal" />
+
+    <ImageView
+        android:id="@+id/buttonStart"
+        android:layout_width="402dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="165dp"
+        android:clickable="true"
+        android:contentDescription=""
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:srcCompat="@drawable/boton" />
+
+    <TextView
+        android:id="@+id/textPlay"
+        android:layout_width="95dp"
+        android:layout_height="27dp"
+        android:text="@string/play"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonStart"
+        app:layout_constraintStart_toStartOf="@+id/buttonStart"
+        app:layout_constraintTop_toTopOf="@+id/buttonStart"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

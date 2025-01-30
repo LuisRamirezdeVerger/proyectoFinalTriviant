@@ -7,4 +7,5 @@
     <string name="full">The room is full</string>
     <string name="start">Start</string>
     <string name="ready">Ready</string>
+    <string name="play">Play</string>
 </resources>

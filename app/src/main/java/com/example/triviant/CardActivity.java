@@ -69,6 +69,10 @@ public class CardActivity extends AppCompatActivity {
             }
 
             //openOtherclass(movement);
+            /*ubi actual=ubi actual + movement
+            jugadoreste.setUbi(ubi actual)
+            openQuestion(String personaje)
+            */
 
         });
     }
@@ -79,5 +83,10 @@ public class CardActivity extends AppCompatActivity {
         startActivity(intent); // Lanzamos el intent
     }
 
+    /* void openQuestion(String personaje) {
+        Intent intent = new Intent(this, Question.class); // Crear el intent
+
+        startActivity(intent); // Lanzamos el intent
+    }*/
 
 }

@@ -8,5 +8,6 @@
     <string name="full">La habitación está llena</string>
     <string name="start">Empezar</string>
     <string name="ready">Listo</string>
-    <string name="ready">Li</string>
+    <string name="ready">Listo</string>
+    <string name="play">Jugar</string>
 </resources>
