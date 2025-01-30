@@ -5,18 +5,18 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Otherclass">
 
-    <TextView
-        android:id="@+id/textView"
+    <Button
+        android:id="@+id/change_language_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="activity_main.xml" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="227dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="456dp"
+        android:text="@string/change_language_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

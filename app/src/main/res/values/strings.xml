@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Triviant</string>
+    <string name="card">Pick card</string>
+    <string name="change_language_button">Change languaje</string>
+    <string name="waiting">Waiting for the other players…</string>
+    <string name="exit">Exit</string>
+    <string name="full">The room is full</string>
+    <string name="start">Start</string>
+    <string name="ready">Ready</string>
 </resources>

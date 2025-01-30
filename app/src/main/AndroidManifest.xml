@@ -13,8 +13,13 @@
         android:theme="@style/Theme.Triviant"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:screenOrientation="landscape"
+            android:name=".WaitingRoom"
+            android:exported="false" />
+        <activity
+            android:name=".Otherclass"
+            android:exported="false" />
+        <activity
+            android:name=".CardActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
