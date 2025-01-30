@@ -19,7 +19,7 @@
             android:name=".Otherclass"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".CardActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,20 +1,17 @@
 package com.example.triviant;
 
-import static java.util.Collections.list;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.*;
 
-import com.example.triviant.databinding.ActivityMainBinding;
+import com.example.triviant.databinding.ActivityCardBinding;
 
-public class MainActivity extends AppCompatActivity {
+public class CardActivity extends AppCompatActivity {
 
     ImageView card;
     Button buttonCard;
@@ -22,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        ActivityMainBinding binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(R.layout.activity_card);
+        ActivityCardBinding binding = ActivityCardBinding.inflate(getLayoutInflater());
 
         card = findViewById(R.id.card);
         buttonCard = findViewById(R.id.buttonCard);
