@@ -32,7 +32,7 @@ class ServerActivity extends AppCompatActivity {
                 Server server = new Server();
                 server.executeServer();
 
-                // Si necesitas actualizar la UI, usa runOnUiThread
+                // If we need to update the UI, we'll use runOnUiThread
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
