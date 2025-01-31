@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Triviant"
         tools:targetApi="31">
         <activity
+            android:name=".User"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".CreateJoin"
+            android:exported="false" />
+        <activity
+            android:name=".CreateRoom"
+            android:exported="false" />
+        <activity
             android:name=".Title"
             android:exported="false" />
         <activity
