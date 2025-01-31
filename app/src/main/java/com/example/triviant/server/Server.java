@@ -27,7 +27,7 @@ public class Server {
                 clientSockets.add(clientSocket);
                 out.writeUTF("Connected to server, waiting to start. ");
 
-                if(connectedPlayers >= MIN_PLAYERS){
+                if(connectedPlayers <= MIN_PLAYERS){
                     out.writeUTF("You're the host, press start to begin the game. ");
                     String message = in.readUTF();
                     if (message.equalsIgnoreCase("/start")) {
@@ -35,7 +35,6 @@ public class Server {
                         beginGame();
                     }
                 }
-
             }
         } catch (Exception e){
             System.out.println("Error al iniciar el servidor. " + e);
@@ -48,6 +47,8 @@ public class Server {
             try{
                 DataOutputStream out = new DataOutputStream(socket.getOutputStream());
                 out.writeUTF("The game has begun! ");
+
+
             } catch (Exception e){
                 System.out.println("Error initializing the game. " + e);
             }
