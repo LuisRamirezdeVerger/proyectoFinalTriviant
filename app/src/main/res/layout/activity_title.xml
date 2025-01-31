@@ -59,7 +59,7 @@
             app:layout_constraintStart_toStartOf="@+id/buttonStart"
             app:layout_constraintTop_toTopOf="@+id/buttonStart"
             android:gravity="center"
-            android:textColor="@color/black" />
+            android:textColor="@color/white" />
 
         <ImageView
             android:id="@+id/settings"

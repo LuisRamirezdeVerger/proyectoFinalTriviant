@@ -8,4 +8,6 @@
     <string name="start">Start</string>
     <string name="ready">Ready</string>
     <string name="play">Play</string>
+    <string name="create">Create Room</string>
+    <string name="join">Join Room</string>
 </resources>
