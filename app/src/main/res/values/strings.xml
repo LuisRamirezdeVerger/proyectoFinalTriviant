@@ -10,4 +10,5 @@
     <string name="play">Play</string>
     <string name="create">Create Room</string>
     <string name="join">Join Room</string>
+    <string name="creator">Create</string>
 </resources>
