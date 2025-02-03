@@ -120,7 +120,7 @@ class EndTile extends Tile{
     }
 }
 
-class DeathTile extends Tile{
+public class DeathTile extends Tile{
     private int targetPosition;
 
     public DeathTile(int position, int targetPosition){
