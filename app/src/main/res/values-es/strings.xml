@@ -26,4 +26,5 @@
     <string name="createm">Crear Sala</string>
     <string name="joinm">Unirse a una sala</string>
     <string name="vibration">Vibración</string>
+    <string name="SoundEffects">Efectos de sonido</string>
 </resources>

@@ -21,4 +21,7 @@
     <string name="createm">Create Room</string>
     <string name="joinm">Join Room</string>
     <string name="vibration">Vibration</string>
+    <string name="SoundEffects">Sound Effects</string>
+    <string name="volume">Volume</string>
+    <string name="music">Music</string>
 </resources>
