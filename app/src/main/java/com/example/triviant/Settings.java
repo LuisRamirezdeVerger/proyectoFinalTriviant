@@ -3,8 +3,10 @@ package com.example.triviant;
 import android.content.res.Configuration;
 import android.media.AudioManager;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Switch;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,6 +24,8 @@ public class Settings extends AppCompatActivity {
     ImageView English = findViewById(R.id.uk);
     Slider Music = findViewById(R.id.SliderMusic);
     Slider Volume = findViewById(R.id.SliderVolume);
+    Switch Vibrations = findViewById(R.id.vibrationSwitch);
+    Switch Effects = findViewById(R.id.soundSwitch);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +37,8 @@ public class Settings extends AppCompatActivity {
         English.setOnClickListener(v -> changeLanguage(new Locale("en")));
         Music.addOnChangeListener((slider, value, fromUser) -> adjustMusicVolume(value));
         Volume.addOnChangeListener((slider, value, fromUser) -> adjustGeneralVolume(value));
+        Vibrations.setOnCheckedChangeListener((buttonView, isChecked) -> toggleVibration(isChecked));
+        Effects.setOnCheckedChangeListener((buttonView, isChecked) -> toggleEffects(isChecked));
 
     }
 
@@ -56,6 +62,24 @@ public class Settings extends AppCompatActivity {
         int maxVolume = audioManager.getStreamMaxVolume(AudioManager.STREAM_SYSTEM);
         int newVolume = (int) (value * maxVolume / 100);
         audioManager.setStreamVolume(AudioManager.STREAM_SYSTEM, newVolume, 0);
+    }
+
+    private void toggleVibration(boolean isChecked) {
+        Vibrator vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
+        if (isChecked) {
+            vibrator.vibrate(500);
+        } else {
+            vibrator.cancel();
+        }
+    }
+
+    private void toggleEffects(boolean isChecked) {
+        AudioManager audioManager = (AudioManager) getSystemService(AUDIO_SERVICE);
+        if (isChecked) {
+            audioManager.setStreamMute(AudioManager.STREAM_SYSTEM, false);
+        } else {
+            audioManager.setStreamMute(AudioManager.STREAM_SYSTEM, true);
+        }
     }
 
 }
