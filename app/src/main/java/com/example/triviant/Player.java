@@ -23,8 +23,8 @@ public class Player {
     }
 
     //Movement method (CHECK STEPS ON GAMEUTILS!!!)
-    public void move(int steps){
-        steps = GameUtils.diceRoll();
+    public void move(){
+        int steps = GameUtils.diceRoll();
         position += steps;
     }
 

@@ -76,7 +76,7 @@ public class Server {
 
     public void movePlayer(int playerId, int steps) {
         if (playerId >= 0 && playerId < players.size()) {
-            players.get(playerId).move(steps);
+            players.get(playerId).move();
             System.out.println(players.get(playerId).getName() + " moved to " + players.get(playerId).getPosition());
         }
     }

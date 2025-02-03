@@ -24,7 +24,7 @@ public class RavenBrained {
                 int diceRoll = new Random().nextInt(6) + 1;
                 System.out.println(player.getName() + " tira el dado: " + diceRoll);
 
-                player.move(diceRoll);
+                player.move();
                 if (player.getPosition() >= board.tiles.size()){
                     player.setPosition(board.tiles.size());
                 }
