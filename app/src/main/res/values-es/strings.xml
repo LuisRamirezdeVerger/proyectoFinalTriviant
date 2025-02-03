@@ -9,7 +9,21 @@
     <string name="start">Empezar</string>
     <string name="ready">Listo</string>
     <string name="ready">Listo</string>
-    <string name="play">Jugar</string>
-    <string name="create">Crear Sala</string>
-    <string name="join">Unirse a una Sala</string>
+    <string name="play">JUGAR</string>
+    <string name="create">CREAR SALA</string>
+    <string name="join">UNIRSE A UNA SALA</string>
+    <string name="creator">CREAR</string>
+    <string name="creator">CREAR</string>
+    <string name="userName">Nombre de Usuario</string>
+    <string name="roomName">Nombre de la sala</string>
+    <string name="userNamed">Nombre de Usuario:</string>
+    <string name="roomNamed">Nombre de la sala:</string>
+    <string name="joined">UNIRSE</string>
+    <string name="joined">UNIRSE</string>
+    <string name="confirm">Confirmar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="settings">AJUSTES</string>
+    <string name="createm">Crear Sala</string>
+    <string name="joinm">Unirse a una sala</string>
+    <string name="vibration">Vibración</string>
 </resources>

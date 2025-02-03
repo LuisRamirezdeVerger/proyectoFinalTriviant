@@ -13,6 +13,8 @@ import androidx.core.view.WindowInsetsCompat;
 public class CreateRoom extends AppCompatActivity {
 
     ImageView buttonBack = findViewById(R.id.back);
+    ImageView buttonSettings = findViewById(R.id.settings);
+    ImageView buttonCreate = findViewById(R.id.buttonCreateRoom);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,10 +27,31 @@ public class CreateRoom extends AppCompatActivity {
         {
             openBack();
         });
+        buttonSettings.setOnClickListener(v ->
+        {
+            openSettings();
+        });
+        buttonCreate.setOnClickListener(v ->
+        {
+            //Insertar código para crear la sala en la base de datos
+            openWaitingRoom();
+        });
     }
 
     void openBack() {
-        Intent intent = new Intent(this, Title.class); // Crear el intent
+        Intent intent = new Intent(this, CreateJoin.class); // Crear el intent
+
+        startActivity(intent); // Lanzamos el intent
+    }
+
+    void openSettings() {
+        Intent intent = new Intent(this, Settings.class); // Crear el intent
+
+        startActivity(intent); // Lanzamos el intent
+    }
+
+    void openWaitingRoom() {
+        Intent intent = new Intent(this, WaitingRoom.class); // Crear el intent
 
         startActivity(intent); // Lanzamos el intent
     }

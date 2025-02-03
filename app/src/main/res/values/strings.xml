@@ -7,8 +7,18 @@
     <string name="full">The room is full</string>
     <string name="start">Start</string>
     <string name="ready">Ready</string>
-    <string name="play">Play</string>
-    <string name="create">Create Room</string>
-    <string name="join">Join Room</string>
-    <string name="creator">Create</string>
+    <string name="play">PLAY</string>
+    <string name="create">CREATE ROOM</string>
+    <string name="join">JOIN ROOM</string>
+    <string name="creator">CREATE</string>
+    <string name="userName">Username</string>
+    <string name="roomName">Room Name</string>
+    <string name="userNamed">Username:</string>
+    <string name="roomNamed">Room Name:</string>
+    <string name="joined">JOIN</string>
+    <string name="confirm">Confirm</string>
+    <string name="settings">SETTINGS</string>
+    <string name="createm">Create Room</string>
+    <string name="joinm">Join Room</string>
+    <string name="vibration">Vibration</string>
 </resources>

@@ -5,6 +5,119 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Settings">
+    tools:context=".Settings"
+    android:background="@drawable/fondo">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="53dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:contentDescription="go back"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrowback" />
+
+    <ImageView
+        android:id="@+id/backgroundS"
+        android:layout_width="729dp"
+        android:layout_height="410dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondoajustes" />
+
+    <TextView
+        android:id="@+id/TitleSettings"
+        android:layout_width="203dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="280dp"
+        android:gravity="center"
+        android:text="@string/settings"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/backgroundS"
+        app:layout_constraintTop_toTopOf="@+id/backgroundS" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="180dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="230dp"
+        android:gravity="center"
+        android:text="@string/userNamed"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <ImageView
+        android:id="@+id/buttonCancel"
+        android:layout_width="54dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="377dp"
+        android:layout_marginTop="328dp"
+        android:clickable="true"
+        android:contentDescription="cancel button"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundS"
+        app:layout_constraintStart_toStartOf="@+id/backgroundS"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cruz" />
+
+    <TextView
+        android:id="@+id/buttonConfirm"
+        android:layout_width="296dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="@string/confirm"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/vibrationSwitch"
+        android:layout_width="257dp"
+        android:layout_height="56dp"
+        android:text="@string/vibration"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <Switch
+        android:id="@+id/SoundSwitch"
+        android:layout_width="257dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/vibration"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vibrationSwitch"
+        app:layout_constraintVertical_bias="0.454" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
