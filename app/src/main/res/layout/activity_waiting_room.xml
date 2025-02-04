@@ -10,6 +10,16 @@
     android:background="@drawable/backgroundtwo">
 
     <ImageView
+        android:id="@+id/backgroundTwo"
+        android:layout_width="648dp"
+        android:layout_height="355dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paneltwo" />
+
+    <ImageView
         android:id="@+id/back"
         android:layout_width="53dp"
         android:layout_height="49dp"
@@ -34,17 +44,9 @@
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604"></GridLayout>
+        app:layout_constraintVertical_bias="0.604">
 
-    <ImageView
-        android:id="@+id/backgroundTwo"
-        android:layout_width="648dp"
-        android:layout_height="355dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/paneltwo" />
+    </GridLayout>
 
     <TextView
         android:id="@+id/NameRoom"
@@ -62,29 +64,15 @@
 
     <ImageView
         android:id="@+id/StartButton"
-        android:layout_width="226dp"
-        android:layout_height="83dp"
+        android:layout_width="99dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="90dp"
         android:clickable="true"
         android:contentDescription="Play button"
         android:focusable="true"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/boton" />
-
-    <TextView
-        android:id="@+id/textPlay"
-        android:layout_width="95dp"
-        android:layout_height="27dp"
-        android:layout_marginBottom="10dp"
-        android:gravity="center"
-        android:text="@string/start"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/StartButton"
-        app:layout_constraintEnd_toEndOf="@+id/StartButton"
-        app:layout_constraintStart_toStartOf="@+id/StartButton"
-        app:layout_constraintTop_toTopOf="@+id/StartButton" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/botonpasar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,6 @@
 package com.example.triviant;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,6 +22,8 @@ import io.socket.client.Socket;
 public class WaitingRoom extends AppCompatActivity {
 
     private GridLayout playerGrid;
+    ImageView startButton = findViewById(R.id.StartButton);
+    ImageView buttonBack = findViewById(R.id.back);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,22 +32,18 @@ public class WaitingRoom extends AppCompatActivity {
 
         playerGrid = findViewById(R.id.playerGrid);
 
-        Button startButton = findViewById(R.id.startButton);
-        Button exitButton = findViewById(R.id.exitButton);
 
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Lógica para comenzar el juego
+                openBoard();
             }
         });
 
-        exitButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Lógica para salir
-                finish();
-            }
+        buttonBack.setOnClickListener(v ->
+        {
+            openBack();
         });
 
         // Simulando jugadores añadiéndose a la sala
@@ -66,5 +65,17 @@ public class WaitingRoom extends AppCompatActivity {
         }
 
         playerGrid.addView(playerView);
+    }
+
+    void openBack() {
+        Intent intent = new Intent(this, CreateJoin.class); // Crear el intent
+
+        startActivity(intent); // Lanzamos el intent
+    }
+
+    void openBoard() {
+        Intent intent = new Intent(this, Board.class); // Crear el intent
+
+        startActivity(intent); // Lanzamos el intent
     }
 }
