@@ -117,7 +117,7 @@ public class GameBoard {
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-                System.out.println("Error loading questions: " + databaseError.getMessage());
+                System.out.println();
             }
         });
     }
