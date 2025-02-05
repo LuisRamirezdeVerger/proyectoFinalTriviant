@@ -68,5 +68,102 @@
         app:layout_constraintStart_toStartOf="@+id/buttonCard"
         app:layout_constraintTop_toTopOf="@+id/buttonCard" />
 
+    <ImageView
+        android:id="@+id/backQuest"
+        android:layout_width="758dp"
+        android:layout_height="416dp"
+        android:src="@drawable/backgroundtwo"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/woodQuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fondopreguntas"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/backQuest"
+        app:layout_constraintEnd_toEndOf="@+id/backQuest"
+        app:layout_constraintStart_toStartOf="@+id/backQuest"
+        app:layout_constraintTop_toTopOf="@+id/backQuest" />
+
+    <ImageView
+        android:id="@+id/option1"
+        android:layout_width="243dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/preguntaa"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/woodQuest"
+        app:layout_constraintEnd_toEndOf="@+id/woodQuest"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="@+id/woodQuest"
+        app:layout_constraintTop_toTopOf="@+id/woodQuest"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/option2"
+        android:layout_width="265dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/preguntab"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/woodQuest"
+        app:layout_constraintEnd_toEndOf="@+id/woodQuest"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/woodQuest"
+        app:layout_constraintTop_toTopOf="@+id/woodQuest"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/option3"
+        android:layout_width="224dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/preguntac"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/woodQuest"
+        app:layout_constraintEnd_toEndOf="@+id/woodQuest"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/woodQuest"
+        app:layout_constraintTop_toTopOf="@+id/woodQuest"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/option4"
+        android:layout_width="224dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/preguntad"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/woodQuest"
+        app:layout_constraintEnd_toEndOf="@+id/woodQuest"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/woodQuest"
+        app:layout_constraintTop_toTopOf="@+id/woodQuest"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/logoQuest"
+        android:layout_width="46dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/entretenimiento"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/woodQuest"
+        app:layout_constraintEnd_toEndOf="@+id/woodQuest"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintStart_toStartOf="@+id/woodQuest"
+        app:layout_constraintTop_toTopOf="@+id/woodQuest"
+        app:layout_constraintVertical_bias="0.071" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
