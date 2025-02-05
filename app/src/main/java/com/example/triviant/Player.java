@@ -23,8 +23,8 @@ public class Player {
     }
 
     //Movement method (CHECK STEPS ON GAMEUTILS!!!)
-    public void move(int steps){
-       // int steps = GameUtils.diceRoll();
+    public void move(){
+        int steps = GameUtils.diceRoll();
         position += steps;
     }
 
@@ -45,6 +45,7 @@ public class Player {
         this.hasFinished = hasFinished;
     }
     //We've to add skills to every character!!
+
     public void useAbility(Player other){
         //Method to be overwritten
     }

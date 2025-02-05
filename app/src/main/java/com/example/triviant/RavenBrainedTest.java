@@ -1,4 +1,5 @@
 package com.example.triviant;
+
 import java.util.*;
 
 public class RavenBrainedTest {
@@ -42,7 +43,7 @@ public class RavenBrainedTest {
                 int diceRoll = new Random().nextInt(6) + 1;
                 System.out.println(player.getName() + " tiró el dado y sacó: " + diceRoll);
 
-                player.move(diceRoll);
+                player.move();
 
                 if (player.getPosition() > board.getNumberOfTiles()) {
                     player.setPosition(board.getNumberOfTiles());
