@@ -30,4 +30,7 @@
     <string name="volume">Volumen</string>
     <string name="music">Música</string>
     <string name="quest">Pregunta</string>
+    <string name="answ">Respuesta</string>
+    <string name="corr">Correcto</string>
+    <string name="incorr">Incorrecto</string>
 </resources>

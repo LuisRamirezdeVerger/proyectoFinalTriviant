@@ -32,6 +32,7 @@ public class Board extends AppCompatActivity {
     TextView answer2 = findViewById(R.id.answer2);
     TextView answer3 = findViewById(R.id.answer3);
     TextView answer4 = findViewById(R.id.answer4);
+    ImageView result = findViewById(R.id.result);
 
 
     @Override
@@ -233,6 +234,18 @@ public class Board extends AppCompatActivity {
         answer3.setVisibility(View.GONE);
         answer4.setVisibility(View.GONE);
 
+    }
+
+    void correct()
+    {
+        result.setVisibility(View.VISIBLE);
+        result.setImageResource(R.drawable.right);
+    }
+
+    void incorrect()
+    {
+        result.setVisibility(View.VISIBLE);
+        result.setImageResource(R.drawable.wrong);
     }
 }
 

@@ -26,4 +26,6 @@
     <string name="music">Music</string>
     <string name="quest">Question</string>
     <string name="answ">Answer</string>
+    <string name="corr">Correct</string>
+    <string name="incorr">Incorrect</string>
 </resources>
