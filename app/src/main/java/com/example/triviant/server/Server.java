@@ -1,6 +1,7 @@
 package com.example.triviant.server;
 
 import com.example.triviant.Player;
+
 import java.io.*;
 import java.net.*;
 import java.util.*;
@@ -17,7 +18,7 @@ public class Server {
     private int currentTurn = 0;
 
     public Server() {
-        players = new ArrayList<>();
+        //players = new ArrayList<>();
         clientSockets = new ArrayList<>();
     }
 
@@ -95,7 +96,7 @@ public class Server {
         return currentTurn;
     }
 
-    public int[] getFinalPositions() {
-        return getPositions();
-    }
+   // public int[] getFinalPositions() {
+   //     return getPositions();
+   // }
 }

@@ -1,6 +1,5 @@
 package com.example.triviant.server;
 
-import com.example.triviant.Player;
 import java.io.*;
 import java.net.Socket;
 import java.util.Random;
@@ -11,14 +10,14 @@ public class ClientManager extends Thread {
     private Server server;
     private Socket socket;
     private int playerId;
-    private Player player;
+    //private Player player;
     private Random random;
 
-    public ClientManager(Server server, Socket socket, int playerId, Player player) {
+    public ClientManager(Server server, Socket socket, int playerId) {
         this.server = server;
         this.socket = socket;
         this.playerId = playerId;
-        this.player = player;
+        //this.player = player;
         this.random = new Random();
     }
 

@@ -1,78 +1,77 @@
 package com.example.triviant.client;
 
-import java.io.*;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
 import java.net.Socket;
-import java.util.Scanner;
 
-public class Client {
-    private String serverAddress;
-    private int serverPort;
-    private Socket socket;
-    private DataInputStream in;
-    private DataOutputStream out;
-    private Scanner scanner;
 
-    public Client(String serverAddress, int serverPort) {
-        this.serverAddress = serverAddress;
-        this.serverPort = serverPort;
+import java.io.*;
+
+public class Client extends Thread {
+    private static String playerName;
+    private static int playerPosition = 0;  // Posición inicial del jugador
+
+    public Client (String playerName, int playerPosition) throws IOException {
+        this.playerName = playerName;
+        this.playerPosition = playerPosition;
     }
 
-    public void start() {
-        try {
-            socket = new Socket(serverAddress, serverPort);
-            in = new DataInputStream(socket.getInputStream());
-            out = new DataOutputStream(socket.getOutputStream());
-            scanner = new Scanner(System.in);
+    @Override
+    public void run(){
+        String SERVER_ADDRESS = "localhost";
+        int SERVER_PORT = 40404;
+        try (Socket socket = new Socket(SERVER_ADDRESS, SERVER_PORT)) {
+            System.out.println("Connected to server at " + SERVER_ADDRESS + ":" + SERVER_PORT);
 
-            System.out.println("Connected to the server.");
+            DataInputStream in = new DataInputStream(socket.getInputStream());
+            DataOutputStream out = new DataOutputStream(socket.getOutputStream());
 
-            // Thread for server messages
-            new Thread(() -> {
-                try {
-                    while (true) {
-                        String message = in.readUTF();
-                        System.out.println("Server: " + message);
-                    }
-                } catch (IOException e) {
-                    System.out.println("Connection lost. Exiting...");
-                    System.exit(0); // Close the program if teh server is down
-                }
-            }).start();
+            // Recibir mensaje de bienvenida
+            String serverMessage = in.readUTF();
+            System.out.println(serverMessage);
 
-            // To send messages to server
+            // Leer nombre del jugador
+            serverMessage = in.readUTF();
+            System.out.println(serverMessage);
+            playerName = serverMessage.split(":")[1].trim(); // Asumiendo que el servidor envía algo como "Your player name: Player 1"
+
+
+            // Esperar hasta que el juego empiece
             while (true) {
-                String userInput = scanner.nextLine();
+                serverMessage = in.readUTF();
+                System.out.println(serverMessage);
 
-                if (userInput.equalsIgnoreCase("/exit")) {
-                    System.out.println("Disconnecting...");
-                    break; //Get out and close connection
+                // Si el juego ha comenzado, empezar a jugar
+                if (serverMessage.equals("The game has begun! It's time to start.")) {
+                    break;
                 }
+            }
 
-                out.writeUTF(userInput);
-                out.flush();
+
+            // Bucle de juego (el jugador sigue recibiendo turnos y enviando comandos)
+            while (true) {
+                // Esperar el turno del jugador
+                serverMessage = in.readUTF();
+                System.out.println(serverMessage);
+
+                if (serverMessage.contains("It's your turn")) {
+                    // Esperar al jugador para que mueva
+                    System.out.print("Enter command (e.g., /move): ");
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+                    String command = reader.readLine();
+
+                    // Enviar comando al servidor
+                    out.writeUTF(command);
+
+                    // Recibir respuesta del servidor (actualización del estado del jugador)
+                    serverMessage = in.readUTF();
+                    System.out.println(serverMessage);
+                }
             }
 
         } catch (IOException e) {
-            System.out.println("Could not connect to server: " + e.getMessage());
-        } finally {
-            closeConnection();
+            System.out.println("Error connecting to server: " + e.getMessage());
         }
-    }
-
-    private void closeConnection() {
-        try {
-            if (scanner != null) scanner.close();
-            if (in != null) in.close();
-            if (out != null) out.close();
-            if (socket != null) socket.close();
-            System.out.println("Connection closed.");
-        } catch (IOException e) {
-            System.out.println("Error closing connection: " + e.getMessage());
-        }
-    }
-
-    public static void main(String[] args) {
-        Client client = new Client("localhost", 4040);
-        client.start();
     }
 }
