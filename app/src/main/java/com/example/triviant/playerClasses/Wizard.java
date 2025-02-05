@@ -30,10 +30,10 @@ public class Wizard extends Player {
                 steps = GameUtils.diceRoll();  // Reroll
                 System.out.println(getName() + " rerolled and got a " + steps + "!");
                 abilityUsesLeft--;  // Decrease reroll uses
-                System.out.println(getName() + " has " + abilityUsesLeft + " reroll uses left.");
+                System.out.println(getName() + " has " + abilityUsesLeft + " mana left.");
             }
         } else {
-            System.out.println(getName() + " has no reroll uses left!");
+            System.out.println(getName() + " has no mana left!");
         }
 
         // Move the mage based on the final steps after possible reroll
