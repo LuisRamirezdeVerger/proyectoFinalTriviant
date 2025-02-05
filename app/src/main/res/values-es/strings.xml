@@ -27,4 +27,7 @@
     <string name="joinm">Unirse a una sala</string>
     <string name="vibration">Vibración</string>
     <string name="SoundEffects">Efectos de sonido</string>
+    <string name="volume">Volumen</string>
+    <string name="music">Música</string>
+    <string name="quest">Pregunta</string>
 </resources>
