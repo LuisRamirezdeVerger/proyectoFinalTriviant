@@ -4,9 +4,9 @@
       "id": "1.1",
       "category": "Historia",
       "question": "¿En qué año comenzó la Primera Guerra Mundial?",
-      "options": ["1914", "1918", "1939", "1929"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["1939", "1918", "1914", "1929"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Medium"
     },
     {
@@ -22,18 +22,18 @@
       "id": "1.3",
       "category": "Historia",
       "question": "¿Qué civilización construyó las pirámides de Egipto?",
-      "options": ["Egipcios", "Mayas", "Aztecas", "Mesopotámicos"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Aztecas", "Mayas", "Egipcios", "Mesopotámicos"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Easy"
     },
     {
       "id": "1.4",
       "category": "Historia",
       "question": "¿En qué año cayó el Imperio Romano de Occidente?",
-      "options": ["476", "1492", "1066", "1453"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["1453", "1492", "1066", "476"],
+      "correct_answer": [3],
+      "wrong_answers": [1, 2, 0],
       "difficulty": "Medium"
     },
     {
@@ -49,18 +49,18 @@
       "id": "1.6",
       "category": "Historia",
       "question": "¿Qué evento marcó el inicio de la Revolución Francesa?",
-      "options": ["La toma de la Bastilla", "La Declaración de los Derechos del Hombre", "La ejecución de Luis XVI", "La creación de la Asamblea Nacional"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["La ejecución de Luis XVI", "La Declaración de los Derechos del Hombre", "La toma de la Bastilla", "La creación de la Asamblea Nacional"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Hard"
     },
     {
       "id": "1.7",
       "category": "Historia",
       "question": "¿Qué país utilizó por primera vez tanques en batalla durante la Primera Guerra Mundial?",
-      "options": ["Reino Unido", "Alemania", "Estados Unidos", "Francia"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Francia", "Alemania", "Estados Unidos", "Reino Unido"],
+      "correct_answer": [3],
+      "wrong_answers": [1, 2, 0],
       "difficulty": "Medium"
     },
     {
@@ -76,9 +76,9 @@
       "id": "1.9",
       "category": "Historia",
       "question": "¿En qué país se originó la Revolución Industrial?",
-      "options": ["Reino Unido", "Alemania", "Estados Unidos", "Francia"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Alemania", "Reino Unido", "Estados Unidos", "Francia"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
       "difficulty": "Easy"
     },
     {
@@ -103,27 +103,27 @@
       "id": "2.2",
       "category": "Deporte",
       "question": "¿Cuál es el torneo de tenis más antiguo del mundo?",
-      "options": ["Wimbledon", "Roland Garros", "US Open", "Australian Open"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["US Open", "Roland Garros", "Wimbledon", "Australian Open"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Medium"
     },
     {
       "id": "2.3",
       "category": "Deporte",
       "question": "¿Cuántos jugadores forman un equipo de fútbol en el campo?",
-      "options": ["11", "9", "10", "12"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["10", "9", "11", "12"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Easy"
     },
     {
       "id": "2.4",
       "category": "Deporte",
       "question": "¿Quién ganó el Mundial de Fútbol de 2014?",
-      "options": ["Alemania", "Brasil", "Argentina", "España"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["España", "Brasil", "Argentina", "Alemania"],
+      "correct_answer": [3],
+      "wrong_answers": [1, 2, 0],
       "difficulty": "Medium"
     },
     {
@@ -139,45 +139,45 @@
       "id": "2.6",
       "category": "Deporte",
       "question": "¿Cuántos sets necesita ganar un jugador para vencer en un partido de tenis masculino en un Grand Slam?",
-      "options": ["3", "2", "4", "5"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["2", "3", "4", "5"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
       "difficulty": "Hard"
     },
     {
       "id": "2.7",
       "category": "Deporte",
       "question": "¿Quién tiene el récord de más medallas olímpicas ganadas?",
-      "options": ["Michael Phelps", "Usain Bolt", "Larisa Latynina", "Mark Spitz"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Larisa Latynina", "Usain Bolt", "Michael Phelps", "Mark Spitz"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Hard"
     },
     {
       "id": "2.8",
       "category": "Deporte",
       "question": "¿En qué deporte se destaca Roger Federer?",
-      "options": ["Tenis", "Golf", "Natación", "Bádminton"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Golf", "Tenis", "Natación", "Bádminton"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
       "difficulty": "Easy"
     },
     {
       "id": "2.9",
       "category": "Deporte",
       "question": "¿Qué selección de fútbol ganó el primer Mundial de la historia en 1930?",
-      "options": ["Uruguay", "Brasil", "Italia", "Argentina"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Italia", "Brasil", "Uruguay", "Argentina"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Medium"
     },
     {
       "id": "2.10",
       "category": "Deporte",
-      "question": "¿Cuántos anillos de campeonato tiene Tom Brady en la NFL (hasta 2023)?",
-      "options": ["7", "6", "8", "5"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "question": "¿Cuántos anillos de campeonato tiene Tom Brady en la NFL?",
+      "options": ["8", "6", "7", "5"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Hard"
     },
     {
@@ -193,9 +193,9 @@
       "id": "3.2",
       "category": "Videojuegos",
       "question": "¿Cómo se llama el protagonista de la saga *The Legend of Zelda*?",
-      "options": ["Link", "Zelda", "Ganon", "Epona"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Ganon", "Zelda", "Link", "Epona"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Easy"
     },
     {
@@ -211,18 +211,18 @@
       "id": "3.4",
       "category": "Videojuegos",
       "question": "¿Qué personaje de videojuegos dice '¡It's-a me, Mario!'?",
-      "options": ["Mario", "Luigi", "Wario", "Bowser"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Bowser", "Luigi", "Wario", "Mario"],
+      "correct_answer": [3],
+      "wrong_answers": [1, 2, 0],
       "difficulty": "Easy"
     },
     {
       "id": "3.5",
       "category": "Videojuegos",
       "question": "¿Cuál es el nombre de la empresa que desarrolló *The Witcher 3: Wild Hunt*?",
-      "options": ["CD Projekt Red", "Ubisoft", "Rockstar Games", "Bethesda"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Rockstar Games", "Ubisoft", "CD Projekt Red", "Bethesda"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Medium"
     },
     {
@@ -238,9 +238,9 @@
       "id": "3.7",
       "category": "Videojuegos",
       "question": "¿En qué saga de videojuegos aparece el personaje *Master Chief*?",
-      "options": ["Halo", "Gears of War", "Call of Duty", "Destiny"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Destiny", "Gears of War", "Call of Duty", "Halo"],
+      "correct_answer": [3],
+      "wrong_answers": [1, 2, 0],
       "difficulty": "Easy"
     },
     {
@@ -256,9 +256,9 @@
       "id": "3.9",
       "category": "Videojuegos",
       "question": "¿Cuál es el nombre de la ciudad ficticia donde transcurre *Grand Theft Auto V*?",
-      "options": ["Los Santos", "Vice City", "Liberty City", "San Andreas"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Liberty City", "Vice City", "Los Santos", "San Andreas"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Medium"
     },
     {
@@ -274,15 +274,15 @@
       "id": "4.1",
       "category": "Entretenimiento",
       "question": "¿Quién interpretó a Jack Sparrow en la saga *Piratas del Caribe*?",
-      "options": ["Johnny Depp", "Orlando Bloom", "Leonardo DiCaprio", "Brad Pitt"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Orlando Bloom", "Johnny Depp", "Leonardo DiCaprio", "Brad Pitt"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
       "difficulty": "Easy"
     },
     {
       "id": "4.2",
       "category": "Entretenimiento",
-      "question": "¿Cuál es la película animada más taquillera de todos los tiempos (hasta 2023)?",
+      "question": "¿Cuál es la película animada más taquillera de todos los tiempos?",
       "options": ["Frozen II", "El Rey León (2019)", "Los Increíbles 2", "Toy Story 4"],
       "correct_answer": [0],
       "wrong_answers": [1, 2, 3],
@@ -292,18 +292,18 @@
       "id": "4.3",
       "category": "Entretenimiento",
       "question": "¿Qué serie popular presentó a los personajes Walter White y Jesse Pinkman?",
-      "options": ["Breaking Bad", "The Sopranos", "Better Call Saul", "Mad Men"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Better Call Saul", "The Sopranos", "Breaking Bad", "Mad Men"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Medium"
     },
     {
       "id": "4.4",
       "category": "Entretenimiento",
       "question": "¿Qué cantante es conocida como 'La Reina del Pop'?",
-      "options": ["Madonna", "Lady Gaga", "Beyoncé", "Taylor Swift"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Beyoncé", "Lady Gaga", "Madonna", "Taylor Swift"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Easy"
     },
     {
@@ -319,27 +319,27 @@
       "id": "4.6",
       "category": "Entretenimiento",
       "question": "¿Qué grupo británico lanzó el álbum *Abbey Road* en 1969?",
-      "options": ["The Beatles", "The Rolling Stones", "Queen", "Pink Floyd"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["The Rolling Stones", "The Beatles", "Queen", "Pink Floyd"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
       "difficulty": "Medium"
     },
     {
       "id": "4.7",
       "category": "Entretenimiento",
       "question": "¿Quién dirigió la trilogía original de *El Señor de los Anillos*?",
-      "options": ["Peter Jackson", "James Cameron", "Steven Spielberg", "George Lucas"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["George Luca", "James Cameron", "Steven Spielberg", "Peter Jackson"],
+      "correct_answer": [3],
+      "wrong_answers": [1, 2, 0],
       "difficulty": "Medium"
     },
     {
       "id": "4.8",
       "category": "Entretenimiento",
       "question": "¿Cuál es el nombre del villano en *Avengers: Infinity War*?",
-      "options": ["Thanos", "Loki", "Ultron", "Hela"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Ultron", "Loki", "Thanos", "Hela"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Easy"
     },
     {
@@ -355,18 +355,18 @@
       "id": "4.10",
       "category": "Entretenimiento",
       "question": "¿Qué película tiene como protagonista a un robot llamado Wall-E?",
-      "options": ["Wall-E", "Big Hero 6", "Robots", "Transformers"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Robots", "Big Hero 6", "Wall-E", "Transformers"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Easy"
     },
     {
       "id": "5.1",
       "category": "Arte",
       "question": "¿Quién pintó la famosa obra *La Mona Lisa*?",
-      "options": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Claude Monet"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Claude Monet"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Easy"
     },
     {
@@ -382,27 +382,27 @@
       "id": "5.3",
       "category": "Arte",
       "question": "¿En qué museo se encuentra el cuadro *La Noche Estrellada* de Vincent van Gogh?",
-      "options": ["Museo de Arte Moderno (MoMA)", "Louvre", "Museo del Prado", "Galería Uffizi"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Galería Uffizi", "Louvre", "Museo del Prado", "Museo de Arte Moderno (MoMA)"],
+      "correct_answer": [3],
+      "wrong_answers": [1, 2, 0],
       "difficulty": "Hard"
     },
     {
       "id": "5.4",
       "category": "Arte",
       "question": "¿Quién pintó el mural *Guernica*?",
-      "options": ["Pablo Picasso", "Salvador Dalí", "Diego Rivera", "Henri Matisse"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Salvador Dalí", "Pablo Picasso", "Diego Rivera", "Henri Matisse"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
       "difficulty": "Easy"
     },
     {
       "id": "5.5",
       "category": "Arte",
       "question": "¿Qué técnica pictórica utiliza pigmentos mezclados con agua aplicada sobre yeso fresco?",
-      "options": ["Fresco", "Óleo", "Acuarela", "Témpera"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Acuarela", "Óleo", "Fresco", "Témpera"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Medium"
     },
     {
@@ -418,18 +418,18 @@
       "id": "5.7",
       "category": "Arte",
       "question": "¿Cuál de estos pintores es considerado un maestro del Renacimiento?",
-      "options": ["Rafael", "Jackson Pollock", "Andy Warhol", "Paul Cézanne"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Jackson Pollock", "Rafael", "Andy Warhol", "Paul Cézanne"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
       "difficulty": "Medium"
     },
     {
       "id": "5.8",
       "category": "Arte",
       "question": "¿Qué famoso artista creó el estilo del *Cubismo* junto a Georges Braque?",
-      "options": ["Pablo Picasso", "Henri Matisse", "Juan Gris", "Paul Klee"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Juan Gris", "Henri Matisse", "Pablo Picasso", "Paul Klee"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Medium"
     },
     {
@@ -454,18 +454,18 @@
       "id": "6.1",
       "category": "Geografía",
       "question": "¿Cuál es el país más grande del mundo por superficie?",
-      "options": ["Rusia", "Canadá", "China", "Estados Unidos"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Estados Unidos", "Canadá", "China", "Rusia"],
+      "correct_answer": [3],
+      "wrong_answers": [1, 2, 0],
       "difficulty": "Easy"
     },
     {
       "id": "6.2",
       "category": "Geografía",
       "question": "¿Qué país tiene la mayor cantidad de islas en el mundo?",
-      "options": ["Suecia", "Filipinas", "Indonesia", "Japón"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Indonesia", "Filipinas", "Suecia", "Japón"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Medium"
     },
     {
@@ -481,9 +481,9 @@
       "id": "6.4",
       "category": "Geografía",
       "question": "¿Cuál es la capital de Australia?",
-      "options": ["Canberra", "Sídney", "Melbourne", "Brisbane"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Sídney", "Canberra", "Melbourne", "Brisbane"],
+      "correct_answer": [1],
+      "wrong_answers": [0, 2, 3],
       "difficulty": "Medium"
     },
     {
@@ -499,9 +499,9 @@
       "id": "6.6",
       "category": "Geografía",
       "question": "¿Qué río atraviesa la ciudad de Londres?",
-      "options": ["Támesis", "Danubio", "Sena", "Rin"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Rin", "Danubio", "Sena", "Támesis"],
+      "correct_answer": [3],
+      "wrong_answers": [1, 2, 0],
       "difficulty": "Easy"
     },
     {
@@ -526,18 +526,18 @@
       "id": "6.9",
       "category": "Geografía",
       "question": "¿Qué lago es el más profundo del mundo?",
-      "options": ["Lago Baikal", "Lago Tanganica", "Lago Superior", "Lago Victoria"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Lago Superior", "Lago Tanganica", "Lago Baikal", "Lago Victoria"],
+      "correct_answer": [2],
+      "wrong_answers": [1, 0, 3],
       "difficulty": "Medium"
     },
     {
       "id": "6.10",
       "category": "Geografía",
       "question": "¿En qué continente se encuentra el desierto de Atacama?",
-      "options": ["América del Sur", "África", "Asia", "Oceanía"],
-      "correct_answer": [0],
-      "wrong_answers": [1, 2, 3],
+      "options": ["Oceanía", "África", "Asia", "América del Sur"],
+      "correct_answer": [3],
+      "wrong_answers": [1, 2, 0],
       "difficulty": "Easy"
     },
     {
