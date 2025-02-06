@@ -33,6 +33,8 @@ public class Board extends AppCompatActivity {
     TextView answer3 = findViewById(R.id.answer3);
     TextView answer4 = findViewById(R.id.answer4);
     ImageView result = findViewById(R.id.result);
+    TextView confirm = findViewById(R.id.confirm);
+    TextView resultText = findViewById(R.id.correctText);
 
 
     @Override
@@ -239,14 +241,27 @@ public class Board extends AppCompatActivity {
     void correct()
     {
         result.setVisibility(View.VISIBLE);
+        resultText.setVisibility(View.VISIBLE);
+        resultText.setText(R.string.corr);
         result.setImageResource(R.drawable.right);
     }
 
     void incorrect()
     {
         result.setVisibility(View.VISIBLE);
+        resultText.setVisibility(View.VISIBLE);
+        resultText.setText(R.string.incorr);
         result.setImageResource(R.drawable.wrong);
     }
+
+    void confirm()
+    {
+        confirm.setVisibility(View.GONE);
+        result.setVisibility(View.GONE);
+        resultText.setVisibility(View.GONE);
+        closeQuestion();
+    }
+
 }
 
 

@@ -76,7 +76,7 @@
         app:srcCompat="@drawable/boton" />
 
     <TextView
-        android:id="@+id/create"
+        android:id="@+id/pick"
         android:layout_width="203dp"
         android:layout_height="61dp"
         android:gravity="center"
