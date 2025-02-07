@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Triviant"
         tools:targetApi="31">
         <activity
+            android:name=".CharSelect"
+            android:exported="false" />
+        <activity
             android:name=".Winners"
             android:exported="false" />
         <activity
