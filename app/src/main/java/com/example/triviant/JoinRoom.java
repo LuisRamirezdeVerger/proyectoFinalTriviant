@@ -34,7 +34,7 @@ public class JoinRoom extends AppCompatActivity {
         buttonJoin.setOnClickListener(v ->
         {
             //Insertar código para entrar en la sala en la base de datos
-            openWaitingRoom();
+            openCharSelect();
         });
     }
 
@@ -50,8 +50,8 @@ public class JoinRoom extends AppCompatActivity {
         startActivity(intent); // Lanzamos el intent
     }
 
-    void openWaitingRoom() {
-        Intent intent = new Intent(this, WaitingRoom.class); // Crear el intent
+    void openCharSelect() {
+        Intent intent = new Intent(this, CharSelect.class); // Crear el intent
 
         startActivity(intent); // Lanzamos el intent
     }

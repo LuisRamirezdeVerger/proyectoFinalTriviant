@@ -13,8 +13,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class CharSelect extends AppCompatActivity {
+    private int selectedCharacterResourceId = -1;
 
-    ImageView buttonBack = findViewById(R.id.back);
     ImageView buttonSmart = findViewById(R.id.smart);
     ImageView buttonBuff = findViewById(R.id.buff);
     ImageView buttonWizzard = findViewById(R.id.wizzard);
@@ -36,44 +36,57 @@ public class CharSelect extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_char_select);
 
-        buttonBack.setOnClickListener(v ->
-        {
-            openBack();
-        });
         buttonSmart.setOnClickListener(v ->
         {
+            openUI2();
             closeUI();
             className.setText(R.string.gifted);
             classinfotext.setText(R.string.giftedinfo);
             classinfotext2.setText(R.string.giftedinfo2);
+            playerclass.setImageResource(R.drawable.friki);
+            selectedCharacterResourceId = R.drawable.friki;
         });
         buttonBuff.setOnClickListener(v ->
         {
+            openUI2();
             closeUI();
             className.setText(R.string.athlete);
             classinfotext.setText(R.string.athleteinfo);
             classinfotext2.setText(R.string.athleteinfo2);
+            playerclass.setImageResource(R.drawable.buffman);
+            selectedCharacterResourceId = R.drawable.buffman;
         });
         buttonWizzard.setOnClickListener(v ->
         {
+            openUI2();
             closeUI();
             className.setText(R.string.wizzard);
             classinfotext.setText(R.string.wizzardinfo);
             classinfotext2.setText(R.string.wizzardinfo2);
+            playerclass.setImageResource(R.drawable.wizzard);
+            selectedCharacterResourceId = R.drawable.wizzard;
         });
         buttonZombie.setOnClickListener(v ->
         {
+            openUI2();
             closeUI();
             className.setText(R.string.zombie);
             classinfotext.setText(R.string.zombieinfo);
             classinfotext2.setText(R.string.zombieinfo2);
+            playerclass.setImageResource(R.drawable.zombie);
+            selectedCharacterResourceId = R.drawable.zombie;
         });
         buttonChoose.setOnClickListener(v ->
         {
-            //Lógica de selección de personaje
+            Intent intent = new Intent(this, WaitingRoom.class);
+            intent.putExtra("selectedCharacter", selectedCharacterResourceId);
+            startActivity(intent);
+            openUI();
+            closeUI2();
         });
         buttonBackInfo.setOnClickListener(v ->
         {
+            openUI();
             closeUI2();
         });
     }
@@ -85,11 +98,16 @@ public class CharSelect extends AppCompatActivity {
     }
 
     void closeUI(){
-        buttonBack.setVisibility(View.GONE);
         buttonSmart.setVisibility(View.GONE);
         buttonBuff.setVisibility(View.GONE);
         buttonZombie.setVisibility(View.GONE);
         buttonWizzard.setVisibility(View.GONE);
+    }
+    void openUI(){
+        buttonSmart.setVisibility(View.VISIBLE);
+        buttonBuff.setVisibility(View.VISIBLE);
+        buttonZombie.setVisibility(View.VISIBLE);
+        buttonWizzard.setVisibility(View.VISIBLE);
     }
 
     void closeUI2(){
@@ -103,5 +121,17 @@ public class CharSelect extends AppCompatActivity {
         classinfotext2.setVisibility(View.GONE);
         playerclass.setVisibility(View.GONE);
         buttonChoose.setVisibility(View.GONE);
+    }
+    void openUI2(){
+        backInfo.setVisibility(View.VISIBLE);
+        buttonBackInfo.setVisibility(View.VISIBLE);
+        classwood.setVisibility(View.VISIBLE);
+        classinfo.setVisibility(View.VISIBLE);
+        classinfo2.setVisibility(View.VISIBLE);
+        className.setVisibility(View.VISIBLE);
+        classinfotext.setVisibility(View.VISIBLE);
+        classinfotext2.setVisibility(View.VISIBLE);
+        playerclass.setVisibility(View.VISIBLE);
+        buttonChoose.setVisibility(View.VISIBLE);
     }
 }

@@ -24,6 +24,7 @@ public class WaitingRoom extends AppCompatActivity {
     private GridLayout playerGrid;
     ImageView startButton = findViewById(R.id.StartButton);
     ImageView buttonBack = findViewById(R.id.back);
+    private int selectedCharacterResourceId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +32,8 @@ public class WaitingRoom extends AppCompatActivity {
         setContentView(R.layout.activity_waiting_room);
 
         playerGrid = findViewById(R.id.playerGrid);
+        Intent intent = getIntent();
+        selectedCharacterResourceId = intent.getIntExtra("selectedCharacter", R.drawable.ic_player_default);
 
 
         startButton.setOnClickListener(new View.OnClickListener() {
@@ -48,17 +51,16 @@ public class WaitingRoom extends AppCompatActivity {
 
         // Simulando jugadores añadiéndose a la sala
         for (int i = 1; i <= 4; i++) {
-            addPlayerToGrid(i, i <= 2); // Ejemplo: 2 jugadores listos
+            addPlayerToGrid(i, i <= 2, selectedCharacterResourceId);
         }
     }
 
-    private void addPlayerToGrid(int playerNumber, boolean isReady) {
+    private void addPlayerToGrid(int playerNumber, boolean isReady, int characterResourceId) {
         View playerView = getLayoutInflater().inflate(R.layout.player_view, playerGrid, false);
         ImageView playerImage = playerView.findViewById(R.id.playerImage);
         TextView playerStatus = playerView.findViewById(R.id.playerStatus);
 
-        // Aquí puedes añadir lógica para cargar la imagen del jugador
-        playerImage.setImageResource(R.drawable.ic_player_default);
+        playerImage.setImageResource(characterResourceId);
 
         if (isReady) {
             playerStatus.setText(getString(R.string.ready));
@@ -68,14 +70,14 @@ public class WaitingRoom extends AppCompatActivity {
     }
 
     void openBack() {
-        Intent intent = new Intent(this, CreateJoin.class); // Crear el intent
+        Intent intent = new Intent(this, CreateJoin.class);
 
-        startActivity(intent); // Lanzamos el intent
+        startActivity(intent);
     }
 
     void openBoard() {
-        Intent intent = new Intent(this, Board.class); // Crear el intent
+        Intent intent = new Intent(this, Board.class);
 
-        startActivity(intent); // Lanzamos el intent
+        startActivity(intent);
     }
 }

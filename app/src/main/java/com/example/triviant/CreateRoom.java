@@ -34,7 +34,7 @@ public class CreateRoom extends AppCompatActivity {
         buttonCreate.setOnClickListener(v ->
         {
             //Insertar código para crear la sala en la base de datos
-            openWaitingRoom();
+            openCharSelect();
         });
     }
 
@@ -50,8 +50,8 @@ public class CreateRoom extends AppCompatActivity {
         startActivity(intent); // Lanzamos el intent
     }
 
-    void openWaitingRoom() {
-        Intent intent = new Intent(this, WaitingRoom.class); // Crear el intent
+    void openCharSelect() {
+        Intent intent = new Intent(this, CharSelect.class); // Crear el intent
 
         startActivity(intent); // Lanzamos el intent
     }
