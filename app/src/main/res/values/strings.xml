@@ -28,4 +28,17 @@
     <string name="answ">Answer</string>
     <string name="corr">Correct</string>
     <string name="incorr">Incorrect</string>
+    <string name="zombie">Zombie</string>
+    <string name="zombieinfo">He can\'t die\nHe can only get 1-5 on his rolls</string>
+    <string name="zombieinfo2">If he falls in the same tile as another player he will bite them and give the a -2 in their next roll</string>
+    <string name="wizzard">Wizzard</string>
+    <string name="wizzardinfo">He can repeat his rolls a limited amount of times every game</string>
+    <string name="wizzardinfo2">He depends on his elixir to use his magic</string>
+    <string name="athlete">Athlete</string>
+    <string name="athleteinfo">He gets a +1 on his rolls a limited amount every game</string>
+    <string name="athleteinfo2">He doesn\'t have any other habilities</string>
+    <string name="gifted">Gifted</string>
+    <string name="giftedinfo">He can only get 1-5 on his rolls</string>
+    <string name="giftedinfo2">He gets only 3 options in every question</string>
+    <string name="choose">Choose</string>
 </resources>

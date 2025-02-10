@@ -8,19 +8,15 @@
     <string name="full">La habitación está llena</string>
     <string name="start">Empezar</string>
     <string name="ready">Listo</string>
-    <string name="ready">Listo</string>
     <string name="play">JUGAR</string>
     <string name="create">CREAR SALA</string>
     <string name="join">UNIRSE A UNA SALA</string>
-    <string name="creator">CREAR</string>
     <string name="creator">CREAR</string>
     <string name="userName">Nombre de Usuario</string>
     <string name="roomName">Nombre de la sala</string>
     <string name="userNamed">Nombre de Usuario:</string>
     <string name="roomNamed">Nombre de la sala:</string>
     <string name="joined">UNIRSE</string>
-    <string name="joined">UNIRSE</string>
-    <string name="confirm">Confirmar</string>
     <string name="confirm">Confirmar</string>
     <string name="settings">AJUSTES</string>
     <string name="createm">Crear Sala</string>
@@ -33,4 +29,17 @@
     <string name="answ">Respuesta</string>
     <string name="corr">Correcto</string>
     <string name="incorr">Incorrecto</string>
+    <string name="zombie">Zombi</string>
+    <string name="zombieinfo">No puede morir\n Solo puede tirar de 1-5</string>
+    <string name="zombieinfo2">Al caer en la misma casilla que otra persona le morderá y en la próxima tirada tendrá -2</string>
+    <string name="wizzard">Mago</string>
+    <string name="wizzardinfo">Puede repetir sus tiradas un número limitado de veces por partida</string>
+    <string name="wizzardinfo2">Depende de su elixir para poder usar su magia</string>
+    <string name="athlete">Atleta</string>
+    <string name="athleteinfo">Se le suma un +1 a sus tiradas un número limitado de veces por partida</string>
+    <string name="athleteinfo2">No tiene ninguna otra habilidad</string>
+    <string name="gifted">Superdotado</string>
+    <string name="giftedinfo">Solo puede tirar de 1-5</string>
+    <string name="giftedinfo2">Solo tiene 3 opciones en cada pregunta</string>
+    <string name="choose">Elegir</string>
 </resources>

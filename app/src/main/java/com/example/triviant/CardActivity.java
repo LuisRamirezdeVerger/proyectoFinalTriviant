@@ -77,7 +77,7 @@ public class CardActivity extends AppCompatActivity {
         });
     }
 
-    private void openOtherclass(int movement) {
+    /*private void openOtherclass(int movement) {
         Intent intent = new Intent(this, Otherclass.class); // Crear el intent
 
         startActivity(intent); // Lanzamos el intent
