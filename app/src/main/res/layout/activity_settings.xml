@@ -41,8 +41,8 @@
         android:textColor="@color/white"
         android:textSize="34sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundS"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundS"
         app:layout_constraintStart_toStartOf="@+id/backgroundS"
         app:layout_constraintTop_toTopOf="@+id/backgroundS" />
 
@@ -50,18 +50,18 @@
         android:id="@+id/volume"
         android:layout_width="180dp"
         android:layout_height="33dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="210dp"
         android:layout_marginBottom="100dp"
         android:text="@string/volume"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundS"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundS"
         app:layout_constraintHorizontal_bias="0.697"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/backgroundS"
+        app:layout_constraintTop_toTopOf="@+id/backgroundS"
         app:layout_constraintVertical_bias="0.755" />
 
     <ImageView
@@ -73,10 +73,10 @@
         android:clickable="true"
         android:contentDescription="cancel button"
         android:focusable="true"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundS"
         app:layout_constraintEnd_toEndOf="@+id/backgroundS"
         app:layout_constraintStart_toStartOf="@+id/backgroundS"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backgroundS"
         app:srcCompat="@drawable/cruz" />
 
     <TextView
@@ -92,23 +92,23 @@
         android:clickable="true"
         android:focusable="true"
         app:layout_constraintBottom_toBottomOf="@+id/backgroundS"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="@+id/backgroundS"
+        app:layout_constraintStart_toStartOf="@+id/backgroundS"
+        app:layout_constraintTop_toTopOf="@+id/backgroundS" />
 
     <com.google.android.material.slider.Slider
         android:id="@+id/SliderVolume"
         android:layout_width="200dp"
         android:layout_height="0dp"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="204dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="106dp"
         android:contentDescription="slider volume"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundS"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundS"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/backgroundS"
+        app:layout_constraintTop_toTopOf="@+id/backgroundS"
         app:layout_constraintVertical_bias="0.007"
         app:thumbColor="@color/black" />
 
@@ -120,11 +120,11 @@
         android:layout_marginTop="232dp"
         android:layout_marginBottom="100dp"
         android:contentDescription="slider music"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundS"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundS"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/backgroundS"
+        app:layout_constraintTop_toTopOf="@+id/backgroundS"
         app:layout_constraintVertical_bias="0.208"
         app:thumbColor="@color/black" />
 
@@ -139,11 +139,11 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundS"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundS"
         app:layout_constraintHorizontal_bias="0.672"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/backgroundS"
+        app:layout_constraintTop_toTopOf="@+id/backgroundS"
         app:layout_constraintVertical_bias="0.84" />
 
     <Switch
@@ -156,11 +156,11 @@
         android:textSize="20sp"
 
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundS"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundS"
         app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/backgroundS"
+        app:layout_constraintTop_toTopOf="@+id/backgroundS"
         app:layout_constraintVertical_bias="0.525" />
 
     <Switch
@@ -174,8 +174,8 @@
 
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/backgroundS"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundS"
+        app:layout_constraintStart_toStartOf="@+id/backgroundS"
         app:layout_constraintTop_toTopOf="@+id/backgroundS"
         app:layout_constraintVertical_bias="0.551" />
 
@@ -184,7 +184,7 @@
         android:layout_width="140dp"
         android:layout_height="70dp"
         android:layout_marginEnd="140dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="130dp"
         android:clickable="true"
         android:contentDescription="spanish"
         android:focusable="true"
@@ -201,7 +201,7 @@
         android:layout_height="70dp"
         android:layout_marginStart="140dp"
         android:layout_marginTop="6dp"
-        android:layout_marginBottom="120dp"
+        android:layout_marginBottom="130dp"
         android:clickable="true"
         android:contentDescription="english"
         android:focusable="true"

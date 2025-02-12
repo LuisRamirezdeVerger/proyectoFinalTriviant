@@ -1,5 +1,6 @@
 package com.example.triviant;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.media.AudioManager;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.os.Vibrator;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Switch;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,6 +24,9 @@ public class Settings extends AppCompatActivity {
 
     ImageView Spanish;
     ImageView English;
+    TextView Confirm;
+    ImageView Cancel;
+    ImageView buttonBack;
     Slider Music;
     Slider Volume;
     Switch Vibrations;
@@ -39,6 +44,9 @@ public class Settings extends AppCompatActivity {
         Volume = findViewById(R.id.SliderVolume);
         Vibrations = findViewById(R.id.vibrationSwitch);
         Effects = findViewById(R.id.soundSwitch);
+        Confirm = findViewById(R.id.buttonConfirm);
+        Cancel = findViewById(R.id.buttonCancel);
+        buttonBack = findViewById(R.id.back);
 
         Spanish.setOnClickListener(v -> changeLanguage(new Locale("es")));
         English.setOnClickListener(v -> changeLanguage(new Locale("en")));
@@ -46,6 +54,18 @@ public class Settings extends AppCompatActivity {
         Volume.addOnChangeListener((slider, value, fromUser) -> adjustGeneralVolume(value));
         Vibrations.setOnCheckedChangeListener((buttonView, isChecked) -> toggleVibration(isChecked));
         Effects.setOnCheckedChangeListener((buttonView, isChecked) -> toggleEffects(isChecked));
+        Confirm.setOnClickListener(v ->
+        {
+            openBack();
+        });
+        Cancel.setOnClickListener(v ->
+        {
+            openBack();
+        });
+        buttonBack.setOnClickListener(v ->
+        {
+            openBack();
+        });
 
     }
 
@@ -87,6 +107,12 @@ public class Settings extends AppCompatActivity {
         } else {
             audioManager.setStreamMute(AudioManager.STREAM_SYSTEM, true);
         }
+    }
+
+    void openBack() {
+        Intent intent = new Intent(this, Title.class);
+
+        startActivity(intent);
     }
 
 }

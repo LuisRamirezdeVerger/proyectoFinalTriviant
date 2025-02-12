@@ -39,12 +39,9 @@ public class WaitingRoom extends AppCompatActivity {
         selectedCharacterResourceId = intent.getIntExtra("selectedCharacter", R.drawable.ic_player_default);
 
 
-        startButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Lógica para comenzar el juego
-                openBoard();
-            }
+        startButton.setOnClickListener(v ->
+        {
+            openBoard();
         });
 
         buttonBack.setOnClickListener(v ->

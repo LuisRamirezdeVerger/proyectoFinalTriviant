@@ -18,7 +18,7 @@ import java.util.Random;
 public class Board extends AppCompatActivity {
 
     ImageView card;
-    Button buttonCard;
+    ImageView buttonCard;
     String category;
     ImageView backQuest;
     ImageView woodQuest;

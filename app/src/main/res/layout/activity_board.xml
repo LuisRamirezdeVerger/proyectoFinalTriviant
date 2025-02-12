@@ -42,12 +42,12 @@
 
     <TextView
         android:id="@+id/pickText"
-        android:layout_width="55dp"
-        android:layout_height="30dp"
+        android:layout_width="59dp"
+        android:layout_height="21dp"
         android:gravity="center"
         android:text="@string/card"
         android:textColor="@color/white"
-        android:textSize="10sp"
+        android:textSize="8sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/buttonCard"
         app:layout_constraintEnd_toEndOf="@+id/buttonCard"

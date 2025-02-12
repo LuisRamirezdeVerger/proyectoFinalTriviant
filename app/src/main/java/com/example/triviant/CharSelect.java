@@ -29,6 +29,7 @@ public class CharSelect extends AppCompatActivity {
     TextView classinfotext2;
     ImageView playerclass;
     ImageView buttonChoose;
+    TextView choose;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +51,7 @@ public class CharSelect extends AppCompatActivity {
         classinfotext2 = findViewById(R.id.classinfo2);
         playerclass = findViewById(R.id.Playerclass);
         buttonChoose = findViewById(R.id.buttonChoose);
+        choose = findViewById(R.id.choose);
 
         buttonSmart.setOnClickListener(v ->
         {
@@ -106,12 +108,6 @@ public class CharSelect extends AppCompatActivity {
         });
     }
 
-    void openBack() {
-        Intent intent = new Intent(this, WaitingRoom.class); // Crear el intent
-
-        startActivity(intent); // Lanzamos el intent
-    }
-
     void closeUI(){
         buttonSmart.setVisibility(View.GONE);
         buttonBuff.setVisibility(View.GONE);
@@ -136,6 +132,7 @@ public class CharSelect extends AppCompatActivity {
         classinfotext2.setVisibility(View.GONE);
         playerclass.setVisibility(View.GONE);
         buttonChoose.setVisibility(View.GONE);
+        choose.setVisibility(View.GONE);
     }
     void openUI2(){
         backInfo.setVisibility(View.VISIBLE);
@@ -148,5 +145,6 @@ public class CharSelect extends AppCompatActivity {
         classinfotext2.setVisibility(View.VISIBLE);
         playerclass.setVisibility(View.VISIBLE);
         buttonChoose.setVisibility(View.VISIBLE);
+        choose.setVisibility(View.VISIBLE);
     }
 }
