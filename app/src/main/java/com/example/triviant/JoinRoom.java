@@ -12,15 +12,19 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class JoinRoom extends AppCompatActivity {
 
-    ImageView buttonBack = findViewById(R.id.back);
-    ImageView buttonSettings = findViewById(R.id.settings);
-    ImageView buttonJoin = findViewById(R.id.buttonJoinRoom);
+    ImageView buttonBack;
+    ImageView buttonSettings;
+    ImageView buttonJoin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_join_room);
+
+        buttonBack = findViewById(R.id.back);
+        buttonSettings = findViewById(R.id.settings);
+        buttonJoin = findViewById(R.id.buttonJoinRoom);
 
 
         buttonBack.setOnClickListener(v ->

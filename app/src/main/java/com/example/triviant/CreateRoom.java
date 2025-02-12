@@ -12,15 +12,19 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class CreateRoom extends AppCompatActivity {
 
-    ImageView buttonBack = findViewById(R.id.back);
-    ImageView buttonSettings = findViewById(R.id.settings);
-    ImageView buttonCreate = findViewById(R.id.buttonCreateRoom);
+    ImageView buttonBack;
+    ImageView buttonSettings;
+    ImageView buttonCreate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_create_room);
+
+        buttonBack = findViewById(R.id.back);
+        buttonSettings = findViewById(R.id.settings);
+        buttonCreate = findViewById(R.id.buttonCreateRoom);
 
 
         buttonBack.setOnClickListener(v ->

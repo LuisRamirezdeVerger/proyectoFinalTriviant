@@ -20,18 +20,25 @@ import java.util.Locale;
 
 public class Settings extends AppCompatActivity {
 
-    ImageView Spanish = findViewById(R.id.spain);
-    ImageView English = findViewById(R.id.uk);
-    Slider Music = findViewById(R.id.SliderMusic);
-    Slider Volume = findViewById(R.id.SliderVolume);
-    Switch Vibrations = findViewById(R.id.vibrationSwitch);
-    Switch Effects = findViewById(R.id.soundSwitch);
+    ImageView Spanish;
+    ImageView English;
+    Slider Music;
+    Slider Volume;
+    Switch Vibrations;
+    Switch Effects;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_settings);
+
+        Spanish = findViewById(R.id.spain);
+        English = findViewById(R.id.uk);
+        Music = findViewById(R.id.SliderMusic);
+        Volume = findViewById(R.id.SliderVolume);
+        Vibrations = findViewById(R.id.vibrationSwitch);
+        Effects = findViewById(R.id.soundSwitch);
 
         Spanish.setOnClickListener(v -> changeLanguage(new Locale("es")));
         English.setOnClickListener(v -> changeLanguage(new Locale("en")));

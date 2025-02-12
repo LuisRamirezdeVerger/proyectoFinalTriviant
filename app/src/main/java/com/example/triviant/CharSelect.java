@@ -15,26 +15,41 @@ import androidx.core.view.WindowInsetsCompat;
 public class CharSelect extends AppCompatActivity {
     private int selectedCharacterResourceId = -1;
 
-    ImageView buttonSmart = findViewById(R.id.smart);
-    ImageView buttonBuff = findViewById(R.id.buff);
-    ImageView buttonWizzard = findViewById(R.id.wizzard);
-    ImageView buttonZombie = findViewById(R.id.zombie);
-    ImageView backInfo = findViewById(R.id.backinfo);
-    ImageView buttonBackInfo = findViewById(R.id.backtoinfo);
-    ImageView classwood = findViewById(R.id.classname);
-    ImageView classinfo = findViewById(R.id.info1);
-    ImageView classinfo2 = findViewById(R.id.info2);
-    TextView className = findViewById(R.id.classN);
-    TextView classinfotext = findViewById(R.id.classinfo1);
-    TextView classinfotext2 = findViewById(R.id.classinfo2);
-    ImageView playerclass = findViewById(R.id.Playerclass);
-    ImageView buttonChoose = findViewById(R.id.buttonChoose);
+    ImageView buttonSmart;
+    ImageView buttonBuff;
+    ImageView buttonWizzard;
+    ImageView buttonZombie;
+    ImageView backInfo;
+    ImageView buttonBackInfo;
+    ImageView classwood;
+    ImageView classinfo;
+    ImageView classinfo2;
+    TextView className;
+    TextView classinfotext;
+    TextView classinfotext2;
+    ImageView playerclass;
+    ImageView buttonChoose;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_char_select);
+
+        buttonSmart = findViewById(R.id.smart);
+        buttonBuff = findViewById(R.id.buff);
+        buttonWizzard = findViewById(R.id.wizzard);
+        buttonZombie = findViewById(R.id.zombie);
+        backInfo = findViewById(R.id.backinfo);
+        buttonBackInfo = findViewById(R.id.backtoinfo);
+        classwood = findViewById(R.id.classname);
+        classinfo = findViewById(R.id.info1);
+        classinfo2 = findViewById(R.id.info2);
+        className = findViewById(R.id.classN);
+        classinfotext = findViewById(R.id.classinfo1);
+        classinfotext2 = findViewById(R.id.classinfo2);
+        playerclass = findViewById(R.id.Playerclass);
+        buttonChoose = findViewById(R.id.buttonChoose);
 
         buttonSmart.setOnClickListener(v ->
         {

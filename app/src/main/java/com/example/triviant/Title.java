@@ -15,8 +15,8 @@ import com.example.triviant.databinding.ActivityTitleBinding;
 public class Title extends AppCompatActivity {
 
     ImageView buttonPlay;
-    ImageView buttonSettings = findViewById(R.id.settings);
-    ImageView buttonUser = findViewById(R.id.user);
+    ImageView buttonSettings;
+    ImageView buttonUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +27,8 @@ public class Title extends AppCompatActivity {
         ActivityTitleBinding binding = ActivityTitleBinding.inflate(getLayoutInflater());
 
         buttonPlay = findViewById(R.id.buttonStart);
+        buttonSettings = findViewById(R.id.settings); // Inicializar dentro de onCreate
+        buttonUser = findViewById(R.id.user); // Inicializar dentro de onCreate
 
         buttonPlay.setOnClickListener(v ->
         {

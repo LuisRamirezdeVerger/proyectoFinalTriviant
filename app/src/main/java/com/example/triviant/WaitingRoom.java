@@ -22,8 +22,8 @@ import io.socket.client.Socket;
 public class WaitingRoom extends AppCompatActivity {
 
     private GridLayout playerGrid;
-    ImageView startButton = findViewById(R.id.StartButton);
-    ImageView buttonBack = findViewById(R.id.back);
+    ImageView startButton;
+    ImageView buttonBack;
     private int selectedCharacterResourceId;
 
     @Override
@@ -32,6 +32,9 @@ public class WaitingRoom extends AppCompatActivity {
         setContentView(R.layout.activity_waiting_room);
 
         playerGrid = findViewById(R.id.playerGrid);
+        startButton = findViewById(R.id.StartButton);
+        buttonBack = findViewById(R.id.back);
+
         Intent intent = getIntent();
         selectedCharacterResourceId = intent.getIntExtra("selectedCharacter", R.drawable.ic_player_default);
 

@@ -20,21 +20,21 @@ public class Board extends AppCompatActivity {
     ImageView card;
     Button buttonCard;
     String category;
-    ImageView backQuest = findViewById(R.id.backQuest);
-    ImageView woodQuest = findViewById(R.id.woodQuest);
-    ImageView option1 = findViewById(R.id.option1);
-    ImageView option2 = findViewById(R.id.option2);
-    ImageView option3 = findViewById(R.id.option3);
-    ImageView option4 = findViewById(R.id.option4);
-    ImageView logoQuest = findViewById(R.id.logoQuest);
-    TextView question = findViewById(R.id.question);
-    TextView answer1 = findViewById(R.id.answer1);
-    TextView answer2 = findViewById(R.id.answer2);
-    TextView answer3 = findViewById(R.id.answer3);
-    TextView answer4 = findViewById(R.id.answer4);
-    ImageView result = findViewById(R.id.result);
-    TextView confirm = findViewById(R.id.confirm);
-    TextView resultText = findViewById(R.id.correctText);
+    ImageView backQuest;
+    ImageView woodQuest;
+    ImageView option1;
+    ImageView option2;
+    ImageView option3;
+    ImageView option4;
+    ImageView logoQuest;
+    TextView question;
+    TextView answer1;
+    TextView answer2;
+    TextView answer3;
+    TextView answer4;
+    ImageView result;
+    TextView confirm;
+    TextView resultText;
 
 
     @Override
@@ -45,6 +45,21 @@ public class Board extends AppCompatActivity {
 
         card = findViewById(R.id.card);
         buttonCard = findViewById(R.id.buttonCard);
+        backQuest = findViewById(R.id.backQuest);
+        woodQuest = findViewById(R.id.woodQuest);
+        option1 = findViewById(R.id.option1);
+        option2 = findViewById(R.id.option2);
+        option3 = findViewById(R.id.option3);
+        option4 = findViewById(R.id.option4);
+        logoQuest = findViewById(R.id.logoQuest);
+        question = findViewById(R.id.question);
+        answer1 = findViewById(R.id.answer1);
+        answer2 = findViewById(R.id.answer2);
+        answer3 = findViewById(R.id.answer3);
+        answer4 = findViewById(R.id.answer4);
+        result = findViewById(R.id.result);
+        confirm = findViewById(R.id.confirm);
+        resultText = findViewById(R.id.correctText);
 
         buttonCard.setOnClickListener(v -> {
             Random random = new Random();
