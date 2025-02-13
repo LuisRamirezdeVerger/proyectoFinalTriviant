@@ -41,4 +41,5 @@
     <string name="giftedinfo">He can only get 1-5 on his rolls</string>
     <string name="giftedinfo2">He gets only 3 options in every question</string>
     <string name="choose">Choose</string>
+    <string name="numbers">numbers</string>
 </resources>

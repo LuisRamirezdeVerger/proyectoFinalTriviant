@@ -2,6 +2,7 @@ package com.example.triviant;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -35,6 +36,8 @@ public class Board extends AppCompatActivity {
     ImageView result;
     TextView confirm;
     TextView resultText;
+    ImageView chronowood;
+    TextView chrono;
 
 
     @Override
@@ -60,6 +63,8 @@ public class Board extends AppCompatActivity {
         result = findViewById(R.id.result);
         confirm = findViewById(R.id.confirm);
         resultText = findViewById(R.id.correctText);
+        chronowood = findViewById(R.id.chronometer);
+        chrono = findViewById(R.id.numbers);
 
         buttonCard.setOnClickListener(v -> {
             Random random = new Random();
@@ -276,6 +281,21 @@ public class Board extends AppCompatActivity {
         resultText.setVisibility(View.GONE);
         closeQuestion();
     }
+
+    /*void chrono()
+    {
+        new CountDownTimer(60000, 1000) {
+
+            public void onTick(long millisUntilFinished) {
+                long secondsRemaining = millisUntilFinished / 1000;
+                chrono.setText(String.format("%02d:%02d", secondsRemaining / 60, secondsRemaining % 60));
+            }
+
+            public void onFinish() {
+                chrono.setText("00:00");
+            }
+        }.start();
+    }*/
 
 }
 

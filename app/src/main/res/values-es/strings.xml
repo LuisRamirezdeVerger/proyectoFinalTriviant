@@ -42,4 +42,5 @@
     <string name="giftedinfo">Solo puede tirar de 1-5</string>
     <string name="giftedinfo2">Solo tiene 3 opciones en cada pregunta</string>
     <string name="choose">Elegir</string>
+    <string name="numbers">números</string>
 </resources>
