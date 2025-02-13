@@ -16,9 +16,6 @@ import androidx.core.view.WindowInsetsCompat;
 
 import java.net.URISyntaxException;
 
-import io.socket.client.IO;
-import io.socket.client.Socket;
-
 public class WaitingRoom extends AppCompatActivity {
 
     private GridLayout playerGrid;

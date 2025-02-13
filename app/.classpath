@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="src/androidTest/java"/>
-	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry kind="src" path="src/test/java"/>
-	<classpathentry kind="lib" path="build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/processDebugResources/R.jar"/>
-	<classpathentry kind="lib" path="build/intermediates/compressed_assets/debug/compressDebugAssets/out/assets/board_config.json.jar"/>
-	<classpathentry kind="lib" path="build/intermediates/merged_java_res/debug/mergeDebugJavaResource/base.jar"/>
-	<classpathentry kind="lib" path="build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/77f51adc2cf1242708282e0dd3e5452b6cdc377b51ba46cef9eeeed3410eaf34_0.jar"/>
-	<classpathentry kind="lib" path="build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/77f51adc2cf1242708282e0dd3e5452b6cdc377b51ba46cef9eeeed3410eaf34_1.jar"/>
-	<classpathentry kind="lib" path="build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/77f51adc2cf1242708282e0dd3e5452b6cdc377b51ba46cef9eeeed3410eaf34_2.jar"/>
-	<classpathentry kind="lib" path="build/intermediates/project_dex_archive/debug/dexBuilderDebug/out/77f51adc2cf1242708282e0dd3e5452b6cdc377b51ba46cef9eeeed3410eaf34_3.jar"/>
-	<classpathentry kind="output" path="build/intermediates/javac/debug/compileDebugJavaWithJavac/classes"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21/"/>
+	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="output" path="bin/default"/>
 </classpath>
